@@ -11,7 +11,45 @@
 		FDA80AB32B57EE1200372627 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA80AB22B57EE1200372627 /* ContentView.swift */; };
 		FDA80AB52B57EE1300372627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA80AB42B57EE1300372627 /* Assets.xcassets */; };
 		FDA80AB82B57EE1300372627 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA80AB72B57EE1300372627 /* Preview Assets.xcassets */; };
+		FDA80AC52B57EE7F00372627 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA80AC42B57EE7F00372627 /* WidgetKit.framework */; };
+		FDA80AC72B57EE7F00372627 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA80AC62B57EE7F00372627 /* SwiftUI.framework */; };
+		FDA80ACA2B57EE7F00372627 /* SimpleStaticWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA80AC92B57EE7F00372627 /* SimpleStaticWidgetBundle.swift */; };
+		FDA80ACC2B57EE7F00372627 /* SimpleStaticWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA80ACB2B57EE7F00372627 /* SimpleStaticWidget.swift */; };
+		FDA80ACE2B57EE8100372627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA80ACD2B57EE8100372627 /* Assets.xcassets */; };
+		FDA80AD22B57EE8100372627 /* SimpleStaticWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FDA80AC22B57EE7F00372627 /* SimpleStaticWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FDA80AD92B57EF4200372627 /* HelloStaticWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA80AD82B57EF4200372627 /* HelloStaticWidgetEntry.swift */; };
+		FDA80ADB2B57F05B00372627 /* HelloStaticWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA80ADA2B57F05B00372627 /* HelloStaticWidgetView.swift */; };
+		FDA80ADF2B58343D00372627 /* HelloStaticWidgetTimeLineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA80ADE2B58343D00372627 /* HelloStaticWidgetTimeLineProvider.swift */; };
+		FDA80AE12B58396200372627 /* HelloStaticWidgetWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA80AE02B58396200372627 /* HelloStaticWidgetWidget.swift */; };
+		FDA80AE42B5841C600372627 /* TodayInfoTimeLineEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA80AE32B5841C600372627 /* TodayInfoTimeLineEntry.swift */; };
+		FDA80AE62B58421D00372627 /* TodayInfoTimeLineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA80AE52B58421D00372627 /* TodayInfoTimeLineProvider.swift */; };
+		FDA80AE82B584D7A00372627 /* TodayInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA80AE72B584D7A00372627 /* TodayInfoView.swift */; };
+		FDA80AEA2B584EF000372627 /* TodayInfoWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA80AE92B584EF000372627 /* TodayInfoWidget.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDA80AD02B57EE8100372627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA80AA52B57EE1200372627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA80AC12B57EE7F00372627;
+			remoteInfo = SimpleStaticWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FDA80AD62B57EE8100372627 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FDA80AD22B57EE8100372627 /* SimpleStaticWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FDA80AAD2B57EE1200372627 /* WidgetKitsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WidgetKitsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +57,21 @@
 		FDA80AB22B57EE1200372627 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FDA80AB42B57EE1300372627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDA80AB72B57EE1300372627 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDA80AC22B57EE7F00372627 /* SimpleStaticWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SimpleStaticWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA80AC42B57EE7F00372627 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		FDA80AC62B57EE7F00372627 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		FDA80AC92B57EE7F00372627 /* SimpleStaticWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleStaticWidgetBundle.swift; sourceTree = "<group>"; };
+		FDA80ACB2B57EE7F00372627 /* SimpleStaticWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleStaticWidget.swift; sourceTree = "<group>"; };
+		FDA80ACD2B57EE8100372627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDA80ACF2B57EE8100372627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA80AD82B57EF4200372627 /* HelloStaticWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloStaticWidgetEntry.swift; sourceTree = "<group>"; };
+		FDA80ADA2B57F05B00372627 /* HelloStaticWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloStaticWidgetView.swift; sourceTree = "<group>"; };
+		FDA80ADE2B58343D00372627 /* HelloStaticWidgetTimeLineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloStaticWidgetTimeLineProvider.swift; sourceTree = "<group>"; };
+		FDA80AE02B58396200372627 /* HelloStaticWidgetWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloStaticWidgetWidget.swift; sourceTree = "<group>"; };
+		FDA80AE32B5841C600372627 /* TodayInfoTimeLineEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayInfoTimeLineEntry.swift; sourceTree = "<group>"; };
+		FDA80AE52B58421D00372627 /* TodayInfoTimeLineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayInfoTimeLineProvider.swift; sourceTree = "<group>"; };
+		FDA80AE72B584D7A00372627 /* TodayInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayInfoView.swift; sourceTree = "<group>"; };
+		FDA80AE92B584EF000372627 /* TodayInfoWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayInfoWidget.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +82,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FDA80ABF2B57EE7F00372627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA80AC72B57EE7F00372627 /* SwiftUI.framework in Frameworks */,
+				FDA80AC52B57EE7F00372627 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +98,10 @@
 			isa = PBXGroup;
 			children = (
 				FDA80AAF2B57EE1200372627 /* WidgetKitsTest */,
+				FDA80AC82B57EE7F00372627 /* SimpleStaticWidget */,
+				FDA80AD72B57EF0D00372627 /* HelloStaticWidget */,
+				FDA80AE22B58417900372627 /* TodayInfoWidget */,
+				FDA80AC32B57EE7F00372627 /* Frameworks */,
 				FDA80AAE2B57EE1200372627 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				FDA80AAD2B57EE1200372627 /* WidgetKitsTest.app */,
+				FDA80AC22B57EE7F00372627 /* SimpleStaticWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +134,48 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		FDA80AC32B57EE7F00372627 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDA80AC42B57EE7F00372627 /* WidgetKit.framework */,
+				FDA80AC62B57EE7F00372627 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDA80AC82B57EE7F00372627 /* SimpleStaticWidget */ = {
+			isa = PBXGroup;
+			children = (
+				FDA80AC92B57EE7F00372627 /* SimpleStaticWidgetBundle.swift */,
+				FDA80ACB2B57EE7F00372627 /* SimpleStaticWidget.swift */,
+				FDA80ACD2B57EE8100372627 /* Assets.xcassets */,
+				FDA80ACF2B57EE8100372627 /* Info.plist */,
+			);
+			path = SimpleStaticWidget;
+			sourceTree = "<group>";
+		};
+		FDA80AD72B57EF0D00372627 /* HelloStaticWidget */ = {
+			isa = PBXGroup;
+			children = (
+				FDA80AD82B57EF4200372627 /* HelloStaticWidgetEntry.swift */,
+				FDA80ADA2B57F05B00372627 /* HelloStaticWidgetView.swift */,
+				FDA80ADE2B58343D00372627 /* HelloStaticWidgetTimeLineProvider.swift */,
+				FDA80AE02B58396200372627 /* HelloStaticWidgetWidget.swift */,
+			);
+			path = HelloStaticWidget;
+			sourceTree = "<group>";
+		};
+		FDA80AE22B58417900372627 /* TodayInfoWidget */ = {
+			isa = PBXGroup;
+			children = (
+				FDA80AE32B5841C600372627 /* TodayInfoTimeLineEntry.swift */,
+				FDA80AE52B58421D00372627 /* TodayInfoTimeLineProvider.swift */,
+				FDA80AE72B584D7A00372627 /* TodayInfoView.swift */,
+				FDA80AE92B584EF000372627 /* TodayInfoWidget.swift */,
+			);
+			path = TodayInfoWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +186,34 @@
 				FDA80AA92B57EE1200372627 /* Sources */,
 				FDA80AAA2B57EE1200372627 /* Frameworks */,
 				FDA80AAB2B57EE1200372627 /* Resources */,
+				FDA80AD62B57EE8100372627 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FDA80AD12B57EE8100372627 /* PBXTargetDependency */,
 			);
 			name = WidgetKitsTest;
 			productName = WidgetKitsTest;
 			productReference = FDA80AAD2B57EE1200372627 /* WidgetKitsTest.app */;
 			productType = "com.apple.product-type.application";
+		};
+		FDA80AC12B57EE7F00372627 /* SimpleStaticWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA80AD32B57EE8100372627 /* Build configuration list for PBXNativeTarget "SimpleStaticWidgetExtension" */;
+			buildPhases = (
+				FDA80ABE2B57EE7F00372627 /* Sources */,
+				FDA80ABF2B57EE7F00372627 /* Frameworks */,
+				FDA80AC02B57EE7F00372627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleStaticWidgetExtension;
+			productName = SimpleStaticWidgetExtension;
+			productReference = FDA80AC22B57EE7F00372627 /* SimpleStaticWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +226,9 @@
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					FDA80AAC2B57EE1200372627 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					FDA80AC12B57EE7F00372627 = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
@@ -116,6 +247,7 @@
 			projectRoot = "";
 			targets = (
 				FDA80AAC2B57EE1200372627 /* WidgetKitsTest */,
+				FDA80AC12B57EE7F00372627 /* SimpleStaticWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +259,14 @@
 			files = (
 				FDA80AB82B57EE1300372627 /* Preview Assets.xcassets in Resources */,
 				FDA80AB52B57EE1300372627 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA80AC02B57EE7F00372627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA80ACE2B57EE8100372627 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +282,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FDA80ABE2B57EE7F00372627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA80ACA2B57EE7F00372627 /* SimpleStaticWidgetBundle.swift in Sources */,
+				FDA80AE62B58421D00372627 /* TodayInfoTimeLineProvider.swift in Sources */,
+				FDA80AE12B58396200372627 /* HelloStaticWidgetWidget.swift in Sources */,
+				FDA80AEA2B584EF000372627 /* TodayInfoWidget.swift in Sources */,
+				FDA80ADF2B58343D00372627 /* HelloStaticWidgetTimeLineProvider.swift in Sources */,
+				FDA80AE42B5841C600372627 /* TodayInfoTimeLineEntry.swift in Sources */,
+				FDA80ADB2B57F05B00372627 /* HelloStaticWidgetView.swift in Sources */,
+				FDA80AD92B57EF4200372627 /* HelloStaticWidgetEntry.swift in Sources */,
+				FDA80ACC2B57EE7F00372627 /* SimpleStaticWidget.swift in Sources */,
+				FDA80AE82B584D7A00372627 /* TodayInfoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDA80AD12B57EE8100372627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA80AC12B57EE7F00372627 /* SimpleStaticWidgetExtension */;
+			targetProxy = FDA80AD02B57EE8100372627 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		FDA80AB92B57EE1300372627 /* Debug */ = {
@@ -267,6 +432,7 @@
 		FDA80ABC2B57EE1300372627 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +462,7 @@
 		FDA80ABD2B57EE1300372627 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -322,6 +489,60 @@
 			};
 			name = Release;
 		};
+		FDA80AD42B57EE8100372627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LJT266936C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleStaticWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SimpleStaticWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yellow.WidgetKitsTest.SimpleStaticWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDA80AD52B57EE8100372627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LJT266936C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleStaticWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SimpleStaticWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yellow.WidgetKitsTest.SimpleStaticWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -339,6 +560,15 @@
 			buildConfigurations = (
 				FDA80ABC2B57EE1300372627 /* Debug */,
 				FDA80ABD2B57EE1300372627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA80AD32B57EE8100372627 /* Build configuration list for PBXNativeTarget "SimpleStaticWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA80AD42B57EE8100372627 /* Debug */,
+				FDA80AD52B57EE8100372627 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
