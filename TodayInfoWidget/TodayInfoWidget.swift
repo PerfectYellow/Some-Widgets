@@ -9,8 +9,10 @@ import SwiftUI
 import WidgetKit
 
 struct TodayInfoWidget: Widget {
+    let kind = "TodayInfoWidget"
+    
     var body: some WidgetConfiguration {
-        StaticConfiguration(kind: UUID().uuidString, provider: TodayInfoTimeLineProvider()) { entry in
+        StaticConfiguration(kind: kind, provider: TodayInfoTimeLineProvider()) { entry in
             TodayInfoView(entryDate: entry)
                 .containerBackground(for: .widget) {
                     VStack(spacing: 0) {

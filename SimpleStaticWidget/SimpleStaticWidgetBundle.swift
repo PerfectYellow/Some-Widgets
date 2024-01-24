@@ -10,10 +10,20 @@ import SwiftUI
 
 @main
 struct SimpleStaticWidgetBundle: WidgetBundle {
+    
+    @WidgetBundleBuilder
     var body: some Widget {
 //        SimpleStaticWidget()
-        HelloStaticWidgetWidget()
         
-        TodayInfoWidget()
+//        HelloStaticWidgetWidget()
+         
+//        TodayInfoWidget()
+        
+//        QuoteWidget()
+        
+//        WeatherWidgetWidget()
+        
+        WorkoutWidget()
     }
 }
+

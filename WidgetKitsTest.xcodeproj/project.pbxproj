@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD03D4E02B5AB7DE00728B28 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03D4DE2B5AB6AA00728B28 /* QuoteView.swift */; };
+		FD2E69522B602A5C009867AF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E69512B602A5C009867AF /* Model.swift */; };
+		FD2E69542B602C68009867AF /* WeatherUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E69532B602C68009867AF /* WeatherUtil.swift */; };
+		FD2E69562B602E05009867AF /* WeatherWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E69552B602E05009867AF /* WeatherWidgetEntry.swift */; };
+		FD2E69582B602F5A009867AF /* WeatherMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E69572B602F5A009867AF /* WeatherMockData.swift */; };
+		FD2E695A2B6030FC009867AF /* WeatherWidgetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E69592B6030FC009867AF /* WeatherWidgetProvider.swift */; };
+		FD2E695C2B60427B009867AF /* WeatherWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E695B2B60427B009867AF /* WeatherWidgetView.swift */; };
+		FD2E695E2B6042FC009867AF /* WeatherSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E695D2B6042FC009867AF /* WeatherSubview.swift */; };
+		FD2E69602B6046A8009867AF /* DailyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E695F2B6046A8009867AF /* DailyWeatherView.swift */; };
+		FD2E69622B604ADB009867AF /* WeatherWidgetWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E69612B604ADB009867AF /* WeatherWidgetWidget.swift */; };
+		FD9AFC072B618105005D133D /* WorkoutWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9AFC052B617F06005D133D /* WorkoutWidget.swift */; };
+		FD9AFC082B618109005D133D /* WorkoutTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9AFC032B617889005D133D /* WorkoutTimelineProvider.swift */; };
+		FD9AFC092B61810B005D133D /* WorkoutWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9AFC002B617727005D133D /* WorkoutWidgetEntry.swift */; };
 		FDA80AB12B57EE1200372627 /* WidgetKitsTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA80AB02B57EE1200372627 /* WidgetKitsTestApp.swift */; };
 		FDA80AB32B57EE1200372627 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA80AB22B57EE1200372627 /* ContentView.swift */; };
 		FDA80AB52B57EE1300372627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA80AB42B57EE1300372627 /* Assets.xcassets */; };
@@ -25,6 +38,17 @@
 		FDA80AE62B58421D00372627 /* TodayInfoTimeLineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA80AE52B58421D00372627 /* TodayInfoTimeLineProvider.swift */; };
 		FDA80AE82B584D7A00372627 /* TodayInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA80AE72B584D7A00372627 /* TodayInfoView.swift */; };
 		FDA80AEA2B584EF000372627 /* TodayInfoWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA80AE92B584EF000372627 /* TodayInfoWidget.swift */; };
+		FDB35A1F2B5BB44200CF24E2 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03D4D82B5A9C3400728B28 /* QuoteModel.swift */; };
+		FDB35A202B5BB44700CF24E2 /* QuoteServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03D4DA2B5A9C4400728B28 /* QuoteServices.swift */; };
+		FDB35A212B5BB44A00CF24E2 /* QuoteTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03D4DC2B5AB3A700728B28 /* QuoteTimelineProvider.swift */; };
+		FDB35A222B5BB44D00CF24E2 /* QuotesTimelineEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03D4D62B5A9C0100728B28 /* QuotesTimelineEntry.swift */; };
+		FDB35A242B5BD4CE00CF24E2 /* QuoteWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB35A232B5BD4CE00CF24E2 /* QuoteWidget.swift */; };
+		FDB35A272B5BE12500CF24E2 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB35A262B5BE12500CF24E2 /* Services.swift */; };
+		FDB35A292B5C268800CF24E2 /* NetworkImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB35A282B5C268800CF24E2 /* NetworkImageView.swift */; };
+		FDD64DFF2B61433C00EAE354 /* WorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD64DFE2B61433C00EAE354 /* WorkoutModel.swift */; };
+		FDD64E012B61476800EAE354 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD64E002B61476800EAE354 /* WorkoutView.swift */; };
+		FDD64E022B61476800EAE354 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD64E002B61476800EAE354 /* WorkoutView.swift */; };
+		FDD64E032B6148CC00EAE354 /* WorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD64DFE2B61433C00EAE354 /* WorkoutModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +76,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FD03D4D62B5A9C0100728B28 /* QuotesTimelineEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesTimelineEntry.swift; sourceTree = "<group>"; };
+		FD03D4D82B5A9C3400728B28 /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		FD03D4DA2B5A9C4400728B28 /* QuoteServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteServices.swift; sourceTree = "<group>"; };
+		FD03D4DC2B5AB3A700728B28 /* QuoteTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteTimelineProvider.swift; sourceTree = "<group>"; };
+		FD03D4DE2B5AB6AA00728B28 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		FD2E69512B602A5C009867AF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FD2E69532B602C68009867AF /* WeatherUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherUtil.swift; sourceTree = "<group>"; };
+		FD2E69552B602E05009867AF /* WeatherWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidgetEntry.swift; sourceTree = "<group>"; };
+		FD2E69572B602F5A009867AF /* WeatherMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMockData.swift; sourceTree = "<group>"; };
+		FD2E69592B6030FC009867AF /* WeatherWidgetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidgetProvider.swift; sourceTree = "<group>"; };
+		FD2E695B2B60427B009867AF /* WeatherWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidgetView.swift; sourceTree = "<group>"; };
+		FD2E695D2B6042FC009867AF /* WeatherSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSubview.swift; sourceTree = "<group>"; };
+		FD2E695F2B6046A8009867AF /* DailyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherView.swift; sourceTree = "<group>"; };
+		FD2E69612B604ADB009867AF /* WeatherWidgetWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidgetWidget.swift; sourceTree = "<group>"; };
+		FD9AFC002B617727005D133D /* WorkoutWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutWidgetEntry.swift; sourceTree = "<group>"; };
+		FD9AFC032B617889005D133D /* WorkoutTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTimelineProvider.swift; sourceTree = "<group>"; };
+		FD9AFC052B617F06005D133D /* WorkoutWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutWidget.swift; sourceTree = "<group>"; };
 		FDA80AAD2B57EE1200372627 /* WidgetKitsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WidgetKitsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA80AB02B57EE1200372627 /* WidgetKitsTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetKitsTestApp.swift; sourceTree = "<group>"; };
 		FDA80AB22B57EE1200372627 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +113,11 @@
 		FDA80AE52B58421D00372627 /* TodayInfoTimeLineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayInfoTimeLineProvider.swift; sourceTree = "<group>"; };
 		FDA80AE72B584D7A00372627 /* TodayInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayInfoView.swift; sourceTree = "<group>"; };
 		FDA80AE92B584EF000372627 /* TodayInfoWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayInfoWidget.swift; sourceTree = "<group>"; };
+		FDB35A232B5BD4CE00CF24E2 /* QuoteWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteWidget.swift; sourceTree = "<group>"; };
+		FDB35A262B5BE12500CF24E2 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		FDB35A282B5C268800CF24E2 /* NetworkImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImageView.swift; sourceTree = "<group>"; };
+		FDD64DFE2B61433C00EAE354 /* WorkoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutModel.swift; sourceTree = "<group>"; };
+		FDD64E002B61476800EAE354 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,13 +140,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD03D4D52B5A9BCC00728B28 /* QuotesWidget */ = {
+			isa = PBXGroup;
+			children = (
+				FD03D4D62B5A9C0100728B28 /* QuotesTimelineEntry.swift */,
+				FD03D4D82B5A9C3400728B28 /* QuoteModel.swift */,
+				FD03D4DA2B5A9C4400728B28 /* QuoteServices.swift */,
+				FD03D4DC2B5AB3A700728B28 /* QuoteTimelineProvider.swift */,
+				FD03D4DE2B5AB6AA00728B28 /* QuoteView.swift */,
+				FDB35A232B5BD4CE00CF24E2 /* QuoteWidget.swift */,
+			);
+			path = QuotesWidget;
+			sourceTree = "<group>";
+		};
+		FD2E69632B604E47009867AF /* ChartWidget */ = {
+			isa = PBXGroup;
+			children = (
+				FD9AFC002B617727005D133D /* WorkoutWidgetEntry.swift */,
+				FD9AFC032B617889005D133D /* WorkoutTimelineProvider.swift */,
+				FD9AFC052B617F06005D133D /* WorkoutWidget.swift */,
+			);
+			path = ChartWidget;
+			sourceTree = "<group>";
+		};
 		FDA80AA42B57EE1200372627 = {
 			isa = PBXGroup;
 			children = (
 				FDA80AAF2B57EE1200372627 /* WidgetKitsTest */,
 				FDA80AC82B57EE7F00372627 /* SimpleStaticWidget */,
-				FDA80AD72B57EF0D00372627 /* HelloStaticWidget */,
+				FDA80AD72B57EF0D00372627 /* HelloStaticImageWidget */,
 				FDA80AE22B58417900372627 /* TodayInfoWidget */,
+				FD03D4D52B5A9BCC00728B28 /* QuotesWidget */,
+				FDB35A252B5BE10400CF24E2 /* WeatherWidget */,
+				FD2E69632B604E47009867AF /* ChartWidget */,
 				FDA80AC32B57EE7F00372627 /* Frameworks */,
 				FDA80AAE2B57EE1200372627 /* Products */,
 			);
@@ -118,6 +190,7 @@
 		FDA80AAF2B57EE1200372627 /* WidgetKitsTest */ = {
 			isa = PBXGroup;
 			children = (
+				FDD64DFD2B6142B800EAE354 /* WorkoutTracker */,
 				FDA80AB02B57EE1200372627 /* WidgetKitsTestApp.swift */,
 				FDA80AB22B57EE1200372627 /* ContentView.swift */,
 				FDA80AB42B57EE1300372627 /* Assets.xcassets */,
@@ -154,15 +227,16 @@
 			path = SimpleStaticWidget;
 			sourceTree = "<group>";
 		};
-		FDA80AD72B57EF0D00372627 /* HelloStaticWidget */ = {
+		FDA80AD72B57EF0D00372627 /* HelloStaticImageWidget */ = {
 			isa = PBXGroup;
 			children = (
 				FDA80AD82B57EF4200372627 /* HelloStaticWidgetEntry.swift */,
+				FDB35A282B5C268800CF24E2 /* NetworkImageView.swift */,
 				FDA80ADA2B57F05B00372627 /* HelloStaticWidgetView.swift */,
 				FDA80ADE2B58343D00372627 /* HelloStaticWidgetTimeLineProvider.swift */,
 				FDA80AE02B58396200372627 /* HelloStaticWidgetWidget.swift */,
 			);
-			path = HelloStaticWidget;
+			path = HelloStaticImageWidget;
 			sourceTree = "<group>";
 		};
 		FDA80AE22B58417900372627 /* TodayInfoWidget */ = {
@@ -174,6 +248,32 @@
 				FDA80AE92B584EF000372627 /* TodayInfoWidget.swift */,
 			);
 			path = TodayInfoWidget;
+			sourceTree = "<group>";
+		};
+		FDB35A252B5BE10400CF24E2 /* WeatherWidget */ = {
+			isa = PBXGroup;
+			children = (
+				FD2E69512B602A5C009867AF /* Model.swift */,
+				FDB35A262B5BE12500CF24E2 /* Services.swift */,
+				FD2E69532B602C68009867AF /* WeatherUtil.swift */,
+				FD2E69572B602F5A009867AF /* WeatherMockData.swift */,
+				FD2E69552B602E05009867AF /* WeatherWidgetEntry.swift */,
+				FD2E69592B6030FC009867AF /* WeatherWidgetProvider.swift */,
+				FD2E695D2B6042FC009867AF /* WeatherSubview.swift */,
+				FD2E695F2B6046A8009867AF /* DailyWeatherView.swift */,
+				FD2E695B2B60427B009867AF /* WeatherWidgetView.swift */,
+				FD2E69612B604ADB009867AF /* WeatherWidgetWidget.swift */,
+			);
+			path = WeatherWidget;
+			sourceTree = "<group>";
+		};
+		FDD64DFD2B6142B800EAE354 /* WorkoutTracker */ = {
+			isa = PBXGroup;
+			children = (
+				FDD64DFE2B61433C00EAE354 /* WorkoutModel.swift */,
+				FDD64E002B61476800EAE354 /* WorkoutView.swift */,
+			);
+			path = WorkoutTracker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +379,8 @@
 			files = (
 				FDA80AB32B57EE1200372627 /* ContentView.swift in Sources */,
 				FDA80AB12B57EE1200372627 /* WidgetKitsTestApp.swift in Sources */,
+				FDD64E012B61476800EAE354 /* WorkoutView.swift in Sources */,
+				FDD64DFF2B61433C00EAE354 /* WorkoutModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,15 +388,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD2E69582B602F5A009867AF /* WeatherMockData.swift in Sources */,
+				FDB35A272B5BE12500CF24E2 /* Services.swift in Sources */,
+				FD2E69562B602E05009867AF /* WeatherWidgetEntry.swift in Sources */,
 				FDA80ACA2B57EE7F00372627 /* SimpleStaticWidgetBundle.swift in Sources */,
+				FD9AFC092B61810B005D133D /* WorkoutWidgetEntry.swift in Sources */,
+				FD2E69542B602C68009867AF /* WeatherUtil.swift in Sources */,
 				FDA80AE62B58421D00372627 /* TodayInfoTimeLineProvider.swift in Sources */,
 				FDA80AE12B58396200372627 /* HelloStaticWidgetWidget.swift in Sources */,
 				FDA80AEA2B584EF000372627 /* TodayInfoWidget.swift in Sources */,
 				FDA80ADF2B58343D00372627 /* HelloStaticWidgetTimeLineProvider.swift in Sources */,
 				FDA80AE42B5841C600372627 /* TodayInfoTimeLineEntry.swift in Sources */,
+				FDB35A292B5C268800CF24E2 /* NetworkImageView.swift in Sources */,
+				FDB35A212B5BB44A00CF24E2 /* QuoteTimelineProvider.swift in Sources */,
+				FDB35A1F2B5BB44200CF24E2 /* QuoteModel.swift in Sources */,
+				FD2E695E2B6042FC009867AF /* WeatherSubview.swift in Sources */,
+				FDD64E022B61476800EAE354 /* WorkoutView.swift in Sources */,
+				FD03D4E02B5AB7DE00728B28 /* QuoteView.swift in Sources */,
+				FDD64E032B6148CC00EAE354 /* WorkoutModel.swift in Sources */,
+				FD9AFC072B618105005D133D /* WorkoutWidget.swift in Sources */,
+				FDB35A222B5BB44D00CF24E2 /* QuotesTimelineEntry.swift in Sources */,
 				FDA80ADB2B57F05B00372627 /* HelloStaticWidgetView.swift in Sources */,
+				FD2E69602B6046A8009867AF /* DailyWeatherView.swift in Sources */,
 				FDA80AD92B57EF4200372627 /* HelloStaticWidgetEntry.swift in Sources */,
+				FD2E695C2B60427B009867AF /* WeatherWidgetView.swift in Sources */,
+				FD2E695A2B6030FC009867AF /* WeatherWidgetProvider.swift in Sources */,
 				FDA80ACC2B57EE7F00372627 /* SimpleStaticWidget.swift in Sources */,
+				FDB35A202B5BB44700CF24E2 /* QuoteServices.swift in Sources */,
+				FD9AFC082B618109005D133D /* WorkoutTimelineProvider.swift in Sources */,
+				FD2E69522B602A5C009867AF /* Model.swift in Sources */,
+				FDB35A242B5BD4CE00CF24E2 /* QuoteWidget.swift in Sources */,
+				FD2E69622B604ADB009867AF /* WeatherWidgetWidget.swift in Sources */,
 				FDA80AE82B584D7A00372627 /* TodayInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

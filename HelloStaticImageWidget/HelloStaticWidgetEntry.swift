@@ -9,6 +9,7 @@ import WidgetKit
 
 struct HelloStaticWidgetEntry: TimelineEntry {
     var date: Date
+    var imageUrl: String
 }
 
 
