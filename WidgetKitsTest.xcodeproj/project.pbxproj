@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		FD03D4E02B5AB7DE00728B28 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03D4DE2B5AB6AA00728B28 /* QuoteView.swift */; };
+		FD0C105A2B65376E00B3679C /* GroceryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C10592B65376E00B3679C /* GroceryView.swift */; };
+		FD0C105C2B65387E00B3679C /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C105B2B65387E00B3679C /* Color+Extension.swift */; };
+		FD0C105D2B65387E00B3679C /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C105B2B65387E00B3679C /* Color+Extension.swift */; };
 		FD2E69522B602A5C009867AF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E69512B602A5C009867AF /* Model.swift */; };
 		FD2E69542B602C68009867AF /* WeatherUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E69532B602C68009867AF /* WeatherUtil.swift */; };
 		FD2E69562B602E05009867AF /* WeatherWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E69552B602E05009867AF /* WeatherWidgetEntry.swift */; };
@@ -20,6 +23,23 @@
 		FD9AFC072B618105005D133D /* WorkoutWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9AFC052B617F06005D133D /* WorkoutWidget.swift */; };
 		FD9AFC082B618109005D133D /* WorkoutTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9AFC032B617889005D133D /* WorkoutTimelineProvider.swift */; };
 		FD9AFC092B61810B005D133D /* WorkoutWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9AFC002B617727005D133D /* WorkoutWidgetEntry.swift */; };
+		FDA17D662B63D7C6002E9C48 /* RemindersAppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA17D652B63D7C6002E9C48 /* RemindersAppConstants.swift */; };
+		FDA17D672B63D8D4002E9C48 /* RemindersAppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA17D652B63D7C6002E9C48 /* RemindersAppConstants.swift */; };
+		FDA17D682B63D8ED002E9C48 /* RemindersWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC65B42B62681F00CD31B0 /* RemindersWidgetEntry.swift */; };
+		FDA17D692B63D8F0002E9C48 /* RemindersWidgetTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC65B62B62687C00CD31B0 /* RemindersWidgetTimeline.swift */; };
+		FDA17D6A2B63D8F5002E9C48 /* RemindersWidgetWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC65B82B6268CE00CD31B0 /* RemindersWidgetWidget.swift */; };
+		FDA17D6F2B6413AA002E9C48 /* GroceyDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDA17D6D2B6413AA002E9C48 /* GroceyDataModel.xcdatamodeld */; };
+		FDA17D702B6413AA002E9C48 /* GroceyDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDA17D6D2B6413AA002E9C48 /* GroceyDataModel.xcdatamodeld */; };
+		FDA17D722B641FC3002E9C48 /* GroceryConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA17D712B641FC3002E9C48 /* GroceryConstants.swift */; };
+		FDA17D732B641FC3002E9C48 /* GroceryConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA17D712B641FC3002E9C48 /* GroceryConstants.swift */; };
+		FDA7B7CC2B6691ED00CA6EAD /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA7B7CB2B6691ED00CA6EAD /* CoreDataManager.swift */; };
+		FDA7B7CD2B66920200CA6EAD /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA7B7CB2B6691ED00CA6EAD /* CoreDataManager.swift */; };
+		FDA7B7D02B669DCB00CA6EAD /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA7B7CF2B669DCB00CA6EAD /* Logger.swift */; };
+		FDA7B7D22B66D97700CA6EAD /* GroceyEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA7B7D12B66D97700CA6EAD /* GroceyEntry.swift */; };
+		FDA7B7D42B66D9B200CA6EAD /* GroceryTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA7B7D32B66D9B200CA6EAD /* GroceryTimeline.swift */; };
+		FDA7B7D62B66DA4800CA6EAD /* GroceryWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA7B7D52B66DA4800CA6EAD /* GroceryWidgetView.swift */; };
+		FDA7B7D72B66DF0F00CA6EAD /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA7B7CF2B669DCB00CA6EAD /* Logger.swift */; };
+		FDA7B7D92B66DF8000CA6EAD /* GroceryWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA7B7D82B66DF8000CA6EAD /* GroceryWidget.swift */; };
 		FDA80AB12B57EE1200372627 /* WidgetKitsTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA80AB02B57EE1200372627 /* WidgetKitsTestApp.swift */; };
 		FDA80AB32B57EE1200372627 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA80AB22B57EE1200372627 /* ContentView.swift */; };
 		FDA80AB52B57EE1300372627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA80AB42B57EE1300372627 /* Assets.xcassets */; };
@@ -45,6 +65,9 @@
 		FDB35A242B5BD4CE00CF24E2 /* QuoteWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB35A232B5BD4CE00CF24E2 /* QuoteWidget.swift */; };
 		FDB35A272B5BE12500CF24E2 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB35A262B5BE12500CF24E2 /* Services.swift */; };
 		FDB35A292B5C268800CF24E2 /* NetworkImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB35A282B5C268800CF24E2 /* NetworkImageView.swift */; };
+		FDBC65B32B62646900CD31B0 /* RemindersWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC65B12B62645F00CD31B0 /* RemindersWidgetView.swift */; };
+		FDBC65BC2B62A19600CD31B0 /* ReminderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC65BB2B62A19600CD31B0 /* ReminderModel.swift */; };
+		FDBC65BF2B62A26500CD31B0 /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC65BE2B62A26500CD31B0 /* RemindersView.swift */; };
 		FDD64DFF2B61433C00EAE354 /* WorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD64DFE2B61433C00EAE354 /* WorkoutModel.swift */; };
 		FDD64E012B61476800EAE354 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD64E002B61476800EAE354 /* WorkoutView.swift */; };
 		FDD64E022B61476800EAE354 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD64E002B61476800EAE354 /* WorkoutView.swift */; };
@@ -81,6 +104,8 @@
 		FD03D4DA2B5A9C4400728B28 /* QuoteServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteServices.swift; sourceTree = "<group>"; };
 		FD03D4DC2B5AB3A700728B28 /* QuoteTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteTimelineProvider.swift; sourceTree = "<group>"; };
 		FD03D4DE2B5AB6AA00728B28 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		FD0C10592B65376E00B3679C /* GroceryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryView.swift; sourceTree = "<group>"; };
+		FD0C105B2B65387E00B3679C /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		FD2E69512B602A5C009867AF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		FD2E69532B602C68009867AF /* WeatherUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherUtil.swift; sourceTree = "<group>"; };
 		FD2E69552B602E05009867AF /* WeatherWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidgetEntry.swift; sourceTree = "<group>"; };
@@ -93,6 +118,15 @@
 		FD9AFC002B617727005D133D /* WorkoutWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutWidgetEntry.swift; sourceTree = "<group>"; };
 		FD9AFC032B617889005D133D /* WorkoutTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTimelineProvider.swift; sourceTree = "<group>"; };
 		FD9AFC052B617F06005D133D /* WorkoutWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutWidget.swift; sourceTree = "<group>"; };
+		FDA17D652B63D7C6002E9C48 /* RemindersAppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersAppConstants.swift; sourceTree = "<group>"; };
+		FDA17D6E2B6413AA002E9C48 /* GroceyDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GroceyDataModel.xcdatamodel; sourceTree = "<group>"; };
+		FDA17D712B641FC3002E9C48 /* GroceryConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryConstants.swift; sourceTree = "<group>"; };
+		FDA7B7CB2B6691ED00CA6EAD /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		FDA7B7CF2B669DCB00CA6EAD /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		FDA7B7D12B66D97700CA6EAD /* GroceyEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceyEntry.swift; sourceTree = "<group>"; };
+		FDA7B7D32B66D9B200CA6EAD /* GroceryTimeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryTimeline.swift; sourceTree = "<group>"; };
+		FDA7B7D52B66DA4800CA6EAD /* GroceryWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryWidgetView.swift; sourceTree = "<group>"; };
+		FDA7B7D82B66DF8000CA6EAD /* GroceryWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryWidget.swift; sourceTree = "<group>"; };
 		FDA80AAD2B57EE1200372627 /* WidgetKitsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WidgetKitsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA80AB02B57EE1200372627 /* WidgetKitsTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetKitsTestApp.swift; sourceTree = "<group>"; };
 		FDA80AB22B57EE1200372627 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -116,6 +150,14 @@
 		FDB35A232B5BD4CE00CF24E2 /* QuoteWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteWidget.swift; sourceTree = "<group>"; };
 		FDB35A262B5BE12500CF24E2 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		FDB35A282B5C268800CF24E2 /* NetworkImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImageView.swift; sourceTree = "<group>"; };
+		FDBC65AE2B62632800CD31B0 /* WidgetKitsTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetKitsTest.entitlements; sourceTree = "<group>"; };
+		FDBC65AF2B62639700CD31B0 /* SimpleStaticWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleStaticWidgetExtension.entitlements; sourceTree = "<group>"; };
+		FDBC65B12B62645F00CD31B0 /* RemindersWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersWidgetView.swift; sourceTree = "<group>"; };
+		FDBC65B42B62681F00CD31B0 /* RemindersWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersWidgetEntry.swift; sourceTree = "<group>"; };
+		FDBC65B62B62687C00CD31B0 /* RemindersWidgetTimeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersWidgetTimeline.swift; sourceTree = "<group>"; };
+		FDBC65B82B6268CE00CD31B0 /* RemindersWidgetWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersWidgetWidget.swift; sourceTree = "<group>"; };
+		FDBC65BB2B62A19600CD31B0 /* ReminderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderModel.swift; sourceTree = "<group>"; };
+		FDBC65BE2B62A26500CD31B0 /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
 		FDD64DFE2B61433C00EAE354 /* WorkoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutModel.swift; sourceTree = "<group>"; };
 		FDD64E002B61476800EAE354 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -163,9 +205,41 @@
 			path = ChartWidget;
 			sourceTree = "<group>";
 		};
+		FDA17D6B2B641361002E9C48 /* Grocey */ = {
+			isa = PBXGroup;
+			children = (
+				FDA17D6D2B6413AA002E9C48 /* GroceyDataModel.xcdatamodeld */,
+				FDA17D712B641FC3002E9C48 /* GroceryConstants.swift */,
+				FD0C10592B65376E00B3679C /* GroceryView.swift */,
+				FD0C105B2B65387E00B3679C /* Color+Extension.swift */,
+				FDA7B7CB2B6691ED00CA6EAD /* CoreDataManager.swift */,
+			);
+			path = Grocey;
+			sourceTree = "<group>";
+		};
+		FDA17D6C2B64137A002E9C48 /* GroceyWidget */ = {
+			isa = PBXGroup;
+			children = (
+				FDA7B7D12B66D97700CA6EAD /* GroceyEntry.swift */,
+				FDA7B7D32B66D9B200CA6EAD /* GroceryTimeline.swift */,
+				FDA7B7D52B66DA4800CA6EAD /* GroceryWidgetView.swift */,
+				FDA7B7D82B66DF8000CA6EAD /* GroceryWidget.swift */,
+			);
+			path = GroceyWidget;
+			sourceTree = "<group>";
+		};
+		FDA7B7CE2B669DBE00CA6EAD /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				FDA7B7CF2B669DCB00CA6EAD /* Logger.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
 		FDA80AA42B57EE1200372627 = {
 			isa = PBXGroup;
 			children = (
+				FDBC65AF2B62639700CD31B0 /* SimpleStaticWidgetExtension.entitlements */,
 				FDA80AAF2B57EE1200372627 /* WidgetKitsTest */,
 				FDA80AC82B57EE7F00372627 /* SimpleStaticWidget */,
 				FDA80AD72B57EF0D00372627 /* HelloStaticImageWidget */,
@@ -173,6 +247,8 @@
 				FD03D4D52B5A9BCC00728B28 /* QuotesWidget */,
 				FDB35A252B5BE10400CF24E2 /* WeatherWidget */,
 				FD2E69632B604E47009867AF /* ChartWidget */,
+				FDBC65B02B6263E300CD31B0 /* RemindersWidget */,
+				FDA17D6C2B64137A002E9C48 /* GroceyWidget */,
 				FDA80AC32B57EE7F00372627 /* Frameworks */,
 				FDA80AAE2B57EE1200372627 /* Products */,
 			);
@@ -190,7 +266,11 @@
 		FDA80AAF2B57EE1200372627 /* WidgetKitsTest */ = {
 			isa = PBXGroup;
 			children = (
+				FDBC65AE2B62632800CD31B0 /* WidgetKitsTest.entitlements */,
+				FDA7B7CE2B669DBE00CA6EAD /* Logger */,
 				FDD64DFD2B6142B800EAE354 /* WorkoutTracker */,
+				FDBC65BA2B62A16B00CD31B0 /* RemindersModel */,
+				FDA17D6B2B641361002E9C48 /* Grocey */,
 				FDA80AB02B57EE1200372627 /* WidgetKitsTestApp.swift */,
 				FDA80AB22B57EE1200372627 /* ContentView.swift */,
 				FDA80AB42B57EE1300372627 /* Assets.xcassets */,
@@ -265,6 +345,27 @@
 				FD2E69612B604ADB009867AF /* WeatherWidgetWidget.swift */,
 			);
 			path = WeatherWidget;
+			sourceTree = "<group>";
+		};
+		FDBC65B02B6263E300CD31B0 /* RemindersWidget */ = {
+			isa = PBXGroup;
+			children = (
+				FDBC65B12B62645F00CD31B0 /* RemindersWidgetView.swift */,
+				FDBC65B42B62681F00CD31B0 /* RemindersWidgetEntry.swift */,
+				FDBC65B62B62687C00CD31B0 /* RemindersWidgetTimeline.swift */,
+				FDBC65B82B6268CE00CD31B0 /* RemindersWidgetWidget.swift */,
+			);
+			path = RemindersWidget;
+			sourceTree = "<group>";
+		};
+		FDBC65BA2B62A16B00CD31B0 /* RemindersModel */ = {
+			isa = PBXGroup;
+			children = (
+				FDBC65BB2B62A19600CD31B0 /* ReminderModel.swift */,
+				FDBC65BE2B62A26500CD31B0 /* RemindersView.swift */,
+				FDA17D652B63D7C6002E9C48 /* RemindersAppConstants.swift */,
+			);
+			path = RemindersModel;
 			sourceTree = "<group>";
 		};
 		FDD64DFD2B6142B800EAE354 /* WorkoutTracker */ = {
@@ -377,10 +478,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDA17D6F2B6413AA002E9C48 /* GroceyDataModel.xcdatamodeld in Sources */,
 				FDA80AB32B57EE1200372627 /* ContentView.swift in Sources */,
 				FDA80AB12B57EE1200372627 /* WidgetKitsTestApp.swift in Sources */,
 				FDD64E012B61476800EAE354 /* WorkoutView.swift in Sources */,
+				FDA17D662B63D7C6002E9C48 /* RemindersAppConstants.swift in Sources */,
+				FDA17D722B641FC3002E9C48 /* GroceryConstants.swift in Sources */,
+				FDA7B7CC2B6691ED00CA6EAD /* CoreDataManager.swift in Sources */,
+				FD0C105A2B65376E00B3679C /* GroceryView.swift in Sources */,
+				FDBC65BC2B62A19600CD31B0 /* ReminderModel.swift in Sources */,
+				FDA7B7D02B669DCB00CA6EAD /* Logger.swift in Sources */,
 				FDD64DFF2B61433C00EAE354 /* WorkoutModel.swift in Sources */,
+				FD0C105C2B65387E00B3679C /* Color+Extension.swift in Sources */,
+				FDBC65BF2B62A26500CD31B0 /* RemindersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +501,7 @@
 				FD2E69582B602F5A009867AF /* WeatherMockData.swift in Sources */,
 				FDB35A272B5BE12500CF24E2 /* Services.swift in Sources */,
 				FD2E69562B602E05009867AF /* WeatherWidgetEntry.swift in Sources */,
+				FDA7B7D22B66D97700CA6EAD /* GroceyEntry.swift in Sources */,
 				FDA80ACA2B57EE7F00372627 /* SimpleStaticWidgetBundle.swift in Sources */,
 				FD9AFC092B61810B005D133D /* WorkoutWidgetEntry.swift in Sources */,
 				FD2E69542B602C68009867AF /* WeatherUtil.swift in Sources */,
@@ -399,27 +510,40 @@
 				FDA80AEA2B584EF000372627 /* TodayInfoWidget.swift in Sources */,
 				FDA80ADF2B58343D00372627 /* HelloStaticWidgetTimeLineProvider.swift in Sources */,
 				FDA80AE42B5841C600372627 /* TodayInfoTimeLineEntry.swift in Sources */,
+				FDA17D6A2B63D8F5002E9C48 /* RemindersWidgetWidget.swift in Sources */,
 				FDB35A292B5C268800CF24E2 /* NetworkImageView.swift in Sources */,
 				FDB35A212B5BB44A00CF24E2 /* QuoteTimelineProvider.swift in Sources */,
 				FDB35A1F2B5BB44200CF24E2 /* QuoteModel.swift in Sources */,
 				FD2E695E2B6042FC009867AF /* WeatherSubview.swift in Sources */,
 				FDD64E022B61476800EAE354 /* WorkoutView.swift in Sources */,
+				FDA17D692B63D8F0002E9C48 /* RemindersWidgetTimeline.swift in Sources */,
+				FDBC65B32B62646900CD31B0 /* RemindersWidgetView.swift in Sources */,
+				FDA17D682B63D8ED002E9C48 /* RemindersWidgetEntry.swift in Sources */,
 				FD03D4E02B5AB7DE00728B28 /* QuoteView.swift in Sources */,
 				FDD64E032B6148CC00EAE354 /* WorkoutModel.swift in Sources */,
 				FD9AFC072B618105005D133D /* WorkoutWidget.swift in Sources */,
+				FDA7B7D62B66DA4800CA6EAD /* GroceryWidgetView.swift in Sources */,
+				FDA7B7CD2B66920200CA6EAD /* CoreDataManager.swift in Sources */,
+				FDA17D732B641FC3002E9C48 /* GroceryConstants.swift in Sources */,
+				FDA7B7D92B66DF8000CA6EAD /* GroceryWidget.swift in Sources */,
 				FDB35A222B5BB44D00CF24E2 /* QuotesTimelineEntry.swift in Sources */,
 				FDA80ADB2B57F05B00372627 /* HelloStaticWidgetView.swift in Sources */,
+				FDA7B7D42B66D9B200CA6EAD /* GroceryTimeline.swift in Sources */,
 				FD2E69602B6046A8009867AF /* DailyWeatherView.swift in Sources */,
 				FDA80AD92B57EF4200372627 /* HelloStaticWidgetEntry.swift in Sources */,
 				FD2E695C2B60427B009867AF /* WeatherWidgetView.swift in Sources */,
+				FDA17D702B6413AA002E9C48 /* GroceyDataModel.xcdatamodeld in Sources */,
 				FD2E695A2B6030FC009867AF /* WeatherWidgetProvider.swift in Sources */,
+				FD0C105D2B65387E00B3679C /* Color+Extension.swift in Sources */,
 				FDA80ACC2B57EE7F00372627 /* SimpleStaticWidget.swift in Sources */,
 				FDB35A202B5BB44700CF24E2 /* QuoteServices.swift in Sources */,
 				FD9AFC082B618109005D133D /* WorkoutTimelineProvider.swift in Sources */,
 				FD2E69522B602A5C009867AF /* Model.swift in Sources */,
+				FDA7B7D72B66DF0F00CA6EAD /* Logger.swift in Sources */,
 				FDB35A242B5BD4CE00CF24E2 /* QuoteWidget.swift in Sources */,
 				FD2E69622B604ADB009867AF /* WeatherWidgetWidget.swift in Sources */,
 				FDA80AE82B584D7A00372627 /* TodayInfoView.swift in Sources */,
+				FDA17D672B63D8D4002E9C48 /* RemindersAppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,6 +683,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WidgetKitsTest/WidgetKitsTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WidgetKitsTest/Preview Content\"";
@@ -589,6 +714,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WidgetKitsTest/WidgetKitsTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WidgetKitsTest/Preview Content\"";
@@ -618,6 +744,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SimpleStaticWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LJT266936C;
@@ -645,6 +772,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SimpleStaticWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LJT266936C;
@@ -698,6 +826,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FDA17D6D2B6413AA002E9C48 /* GroceyDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDA17D6E2B6413AA002E9C48 /* GroceyDataModel.xcdatamodel */,
+			);
+			currentVersion = FDA17D6E2B6413AA002E9C48 /* GroceyDataModel.xcdatamodel */;
+			path = GroceyDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FDA80AA52B57EE1200372627 /* Project object */;
 }

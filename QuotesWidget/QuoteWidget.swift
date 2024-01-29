@@ -20,6 +20,7 @@ struct QuoteWidget: Widget {
     }
 }
 
+@available(iOS 17.0, *)
 #Preview("Quote", as: .systemMedium) {
     QuoteWidget()
 } timeline: {

@@ -23,7 +23,12 @@ struct SimpleStaticWidgetBundle: WidgetBundle {
         
 //        WeatherWidgetWidget()
         
-        WorkoutWidget()
+//        WorkoutWidget()
+        
+//        RemindersWidgetWidget()
+        
+        GroceryWidget()
+            
     }
 }
 

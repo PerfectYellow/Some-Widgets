@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct WidgetKitsTestApp: App {
+    let context = CoreDataManager.shared.managetObjectContext
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext, context)
         }
     }
 }
