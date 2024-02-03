@@ -12,7 +12,16 @@ struct ContentView: View {
     
     var body: some View {
 //        RemindersView()
-        GroceryView()
+        
+//        GroceryView()
+        
+        ExchangeRateAppView()
+    }
+}
+
+extension ViewBuilder {
+    public static func buildBlock() -> EmptyView {
+        EmptyView()
     }
 }
 

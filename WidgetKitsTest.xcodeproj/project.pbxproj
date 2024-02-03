@@ -11,6 +11,11 @@
 		FD0C105A2B65376E00B3679C /* GroceryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C10592B65376E00B3679C /* GroceryView.swift */; };
 		FD0C105C2B65387E00B3679C /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C105B2B65387E00B3679C /* Color+Extension.swift */; };
 		FD0C105D2B65387E00B3679C /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C105B2B65387E00B3679C /* Color+Extension.swift */; };
+		FD1FBC782B6A8F2100FD0FC4 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1FBC772B6A8F2100FD0FC4 /* Country.swift */; };
+		FD1FBC7A2B6A8F2D00FD0FC4 /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1FBC792B6A8F2D00FD0FC4 /* ExchangeRate.swift */; };
+		FD20EA302B6D07F300F94D80 /* ExchangeRateServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD20EA2F2B6D07F300F94D80 /* ExchangeRateServices.swift */; };
+		FD20EA322B6D107600F94D80 /* CountryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD20EA312B6D107600F94D80 /* CountryListCell.swift */; };
+		FD20EA342B6D2C4300F94D80 /* CountryExchangeRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD20EA332B6D2C4300F94D80 /* CountryExchangeRateView.swift */; };
 		FD2E69522B602A5C009867AF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E69512B602A5C009867AF /* Model.swift */; };
 		FD2E69542B602C68009867AF /* WeatherUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E69532B602C68009867AF /* WeatherUtil.swift */; };
 		FD2E69562B602E05009867AF /* WeatherWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E69552B602E05009867AF /* WeatherWidgetEntry.swift */; };
@@ -68,6 +73,27 @@
 		FDBC65B32B62646900CD31B0 /* RemindersWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC65B12B62645F00CD31B0 /* RemindersWidgetView.swift */; };
 		FDBC65BC2B62A19600CD31B0 /* ReminderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC65BB2B62A19600CD31B0 /* ReminderModel.swift */; };
 		FDBC65BF2B62A26500CD31B0 /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC65BE2B62A26500CD31B0 /* RemindersView.swift */; };
+		FDBFA5ED2B6EA6600016A24B /* ExchangeRateWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBFA5EC2B6EA6600016A24B /* ExchangeRateWidgetEntry.swift */; };
+		FDBFA5EF2B6EA6730016A24B /* ExchangeRateWidgetTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBFA5EE2B6EA6730016A24B /* ExchangeRateWidgetTimeline.swift */; };
+		FDBFA5F12B6EA6840016A24B /* ExchangeRateWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBFA5F02B6EA6840016A24B /* ExchangeRateWidget.swift */; };
+		FDBFA5F32B6EA69F0016A24B /* ExchangeRateWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBFA5F22B6EA69F0016A24B /* ExchangeRateWidgetView.swift */; };
+		FDBFA5F42B6EA6B90016A24B /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1FBC772B6A8F2100FD0FC4 /* Country.swift */; };
+		FDBFA5F52B6EA6BD0016A24B /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1FBC792B6A8F2D00FD0FC4 /* ExchangeRate.swift */; };
+		FDBFA5F62B6EA6CB0016A24B /* ExchangeRateServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD20EA2F2B6D07F300F94D80 /* ExchangeRateServices.swift */; };
+		FDBFA5F82B6EB83D0016A24B /* ExchangeRateAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBFA5F72B6EB83D0016A24B /* ExchangeRateAppView.swift */; };
+		FDBFA5F92B6EBAFF0016A24B /* CountryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD20EA312B6D107600F94D80 /* CountryListCell.swift */; };
+		FDC86ABC2B67FFBF00F5F2D3 /* SelectionColorIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = FDC86ABB2B67FFBF00F5F2D3 /* SelectionColorIntents.intentdefinition */; };
+		FDC86ABE2B6803F700F5F2D3 /* ColorWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC86ABD2B6803F700F5F2D3 /* ColorWidgetView.swift */; };
+		FDC86AC02B68041300F5F2D3 /* ColorWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC86ABF2B68041300F5F2D3 /* ColorWidgetEntry.swift */; };
+		FDC86AC22B68048800F5F2D3 /* ColorWidgetTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC86AC12B68048800F5F2D3 /* ColorWidgetTimelineProvider.swift */; };
+		FDC86AC42B68080A00F5F2D3 /* ColorWidgetWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC86AC32B68080A00F5F2D3 /* ColorWidgetWidget.swift */; };
+		FDC86AC72B68175000F5F2D3 /* Expense.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = FDC86AC62B68175000F5F2D3 /* Expense.intentdefinition */; };
+		FDC86AC92B6817E700F5F2D3 /* ExpenseCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC86AC82B6817E700F5F2D3 /* ExpenseCategory.swift */; };
+		FDC86ACB2B6827B700F5F2D3 /* ExpenseWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC86ACA2B6827B700F5F2D3 /* ExpenseWidgetEntry.swift */; };
+		FDC86ACD2B68324E00F5F2D3 /* ExpenseWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC86ACC2B68324E00F5F2D3 /* ExpenseWidgetView.swift */; };
+		FDC86ACF2B68326600F5F2D3 /* ExpenseWidgetTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC86ACE2B68326600F5F2D3 /* ExpenseWidgetTimelineProvider.swift */; };
+		FDC86AD12B68327400F5F2D3 /* ExpenseWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC86AD02B68327400F5F2D3 /* ExpenseWidget.swift */; };
+		FDC86AD52B68342A00F5F2D3 /* ExpenseItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC86AD32B68329100F5F2D3 /* ExpenseItemView.swift */; };
 		FDD64DFF2B61433C00EAE354 /* WorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD64DFE2B61433C00EAE354 /* WorkoutModel.swift */; };
 		FDD64E012B61476800EAE354 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD64E002B61476800EAE354 /* WorkoutView.swift */; };
 		FDD64E022B61476800EAE354 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD64E002B61476800EAE354 /* WorkoutView.swift */; };
@@ -106,6 +132,11 @@
 		FD03D4DE2B5AB6AA00728B28 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 		FD0C10592B65376E00B3679C /* GroceryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryView.swift; sourceTree = "<group>"; };
 		FD0C105B2B65387E00B3679C /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		FD1FBC772B6A8F2100FD0FC4 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		FD1FBC792B6A8F2D00FD0FC4 /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
+		FD20EA2F2B6D07F300F94D80 /* ExchangeRateServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateServices.swift; sourceTree = "<group>"; };
+		FD20EA312B6D107600F94D80 /* CountryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListCell.swift; sourceTree = "<group>"; };
+		FD20EA332B6D2C4300F94D80 /* CountryExchangeRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryExchangeRateView.swift; sourceTree = "<group>"; };
 		FD2E69512B602A5C009867AF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		FD2E69532B602C68009867AF /* WeatherUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherUtil.swift; sourceTree = "<group>"; };
 		FD2E69552B602E05009867AF /* WeatherWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidgetEntry.swift; sourceTree = "<group>"; };
@@ -158,6 +189,23 @@
 		FDBC65B82B6268CE00CD31B0 /* RemindersWidgetWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersWidgetWidget.swift; sourceTree = "<group>"; };
 		FDBC65BB2B62A19600CD31B0 /* ReminderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderModel.swift; sourceTree = "<group>"; };
 		FDBC65BE2B62A26500CD31B0 /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		FDBFA5EC2B6EA6600016A24B /* ExchangeRateWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateWidgetEntry.swift; sourceTree = "<group>"; };
+		FDBFA5EE2B6EA6730016A24B /* ExchangeRateWidgetTimeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateWidgetTimeline.swift; sourceTree = "<group>"; };
+		FDBFA5F02B6EA6840016A24B /* ExchangeRateWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateWidget.swift; sourceTree = "<group>"; };
+		FDBFA5F22B6EA69F0016A24B /* ExchangeRateWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateWidgetView.swift; sourceTree = "<group>"; };
+		FDBFA5F72B6EB83D0016A24B /* ExchangeRateAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateAppView.swift; sourceTree = "<group>"; };
+		FDC86ABB2B67FFBF00F5F2D3 /* SelectionColorIntents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = SelectionColorIntents.intentdefinition; sourceTree = "<group>"; };
+		FDC86ABD2B6803F700F5F2D3 /* ColorWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWidgetView.swift; sourceTree = "<group>"; };
+		FDC86ABF2B68041300F5F2D3 /* ColorWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWidgetEntry.swift; sourceTree = "<group>"; };
+		FDC86AC12B68048800F5F2D3 /* ColorWidgetTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWidgetTimelineProvider.swift; sourceTree = "<group>"; };
+		FDC86AC32B68080A00F5F2D3 /* ColorWidgetWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWidgetWidget.swift; sourceTree = "<group>"; };
+		FDC86AC62B68175000F5F2D3 /* Expense.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Expense.intentdefinition; sourceTree = "<group>"; };
+		FDC86AC82B6817E700F5F2D3 /* ExpenseCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCategory.swift; sourceTree = "<group>"; };
+		FDC86ACA2B6827B700F5F2D3 /* ExpenseWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseWidgetEntry.swift; sourceTree = "<group>"; };
+		FDC86ACC2B68324E00F5F2D3 /* ExpenseWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseWidgetView.swift; sourceTree = "<group>"; };
+		FDC86ACE2B68326600F5F2D3 /* ExpenseWidgetTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseWidgetTimelineProvider.swift; sourceTree = "<group>"; };
+		FDC86AD02B68327400F5F2D3 /* ExpenseWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseWidget.swift; sourceTree = "<group>"; };
+		FDC86AD32B68329100F5F2D3 /* ExpenseItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItemView.swift; sourceTree = "<group>"; };
 		FDD64DFE2B61433C00EAE354 /* WorkoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutModel.swift; sourceTree = "<group>"; };
 		FDD64E002B61476800EAE354 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,6 +241,30 @@
 				FDB35A232B5BD4CE00CF24E2 /* QuoteWidget.swift */,
 			);
 			path = QuotesWidget;
+			sourceTree = "<group>";
+		};
+		FD1FBC752B6A8EE200FD0FC4 /* ExchangeRateApp */ = {
+			isa = PBXGroup;
+			children = (
+				FD1FBC772B6A8F2100FD0FC4 /* Country.swift */,
+				FD1FBC792B6A8F2D00FD0FC4 /* ExchangeRate.swift */,
+				FD20EA2F2B6D07F300F94D80 /* ExchangeRateServices.swift */,
+				FD20EA312B6D107600F94D80 /* CountryListCell.swift */,
+				FD20EA332B6D2C4300F94D80 /* CountryExchangeRateView.swift */,
+				FDBFA5F72B6EB83D0016A24B /* ExchangeRateAppView.swift */,
+			);
+			path = ExchangeRateApp;
+			sourceTree = "<group>";
+		};
+		FD1FBC762B6A8EFC00FD0FC4 /* ExchangeRateWidget */ = {
+			isa = PBXGroup;
+			children = (
+				FDBFA5EC2B6EA6600016A24B /* ExchangeRateWidgetEntry.swift */,
+				FDBFA5EE2B6EA6730016A24B /* ExchangeRateWidgetTimeline.swift */,
+				FDBFA5F02B6EA6840016A24B /* ExchangeRateWidget.swift */,
+				FDBFA5F22B6EA69F0016A24B /* ExchangeRateWidgetView.swift */,
+			);
+			path = ExchangeRateWidget;
 			sourceTree = "<group>";
 		};
 		FD2E69632B604E47009867AF /* ChartWidget */ = {
@@ -249,6 +321,9 @@
 				FD2E69632B604E47009867AF /* ChartWidget */,
 				FDBC65B02B6263E300CD31B0 /* RemindersWidget */,
 				FDA17D6C2B64137A002E9C48 /* GroceyWidget */,
+				FDC86ABA2B67B5D800F5F2D3 /* ColorWidget */,
+				FDC86AC52B68171800F5F2D3 /* ExpenseWidget */,
+				FD1FBC762B6A8EFC00FD0FC4 /* ExchangeRateWidget */,
 				FDA80AC32B57EE7F00372627 /* Frameworks */,
 				FDA80AAE2B57EE1200372627 /* Products */,
 			);
@@ -271,6 +346,7 @@
 				FDD64DFD2B6142B800EAE354 /* WorkoutTracker */,
 				FDBC65BA2B62A16B00CD31B0 /* RemindersModel */,
 				FDA17D6B2B641361002E9C48 /* Grocey */,
+				FD1FBC752B6A8EE200FD0FC4 /* ExchangeRateApp */,
 				FDA80AB02B57EE1200372627 /* WidgetKitsTestApp.swift */,
 				FDA80AB22B57EE1200372627 /* ContentView.swift */,
 				FDA80AB42B57EE1300372627 /* Assets.xcassets */,
@@ -366,6 +442,32 @@
 				FDA17D652B63D7C6002E9C48 /* RemindersAppConstants.swift */,
 			);
 			path = RemindersModel;
+			sourceTree = "<group>";
+		};
+		FDC86ABA2B67B5D800F5F2D3 /* ColorWidget */ = {
+			isa = PBXGroup;
+			children = (
+				FDC86ABB2B67FFBF00F5F2D3 /* SelectionColorIntents.intentdefinition */,
+				FDC86ABD2B6803F700F5F2D3 /* ColorWidgetView.swift */,
+				FDC86ABF2B68041300F5F2D3 /* ColorWidgetEntry.swift */,
+				FDC86AC12B68048800F5F2D3 /* ColorWidgetTimelineProvider.swift */,
+				FDC86AC32B68080A00F5F2D3 /* ColorWidgetWidget.swift */,
+			);
+			path = ColorWidget;
+			sourceTree = "<group>";
+		};
+		FDC86AC52B68171800F5F2D3 /* ExpenseWidget */ = {
+			isa = PBXGroup;
+			children = (
+				FDC86AC62B68175000F5F2D3 /* Expense.intentdefinition */,
+				FDC86AC82B6817E700F5F2D3 /* ExpenseCategory.swift */,
+				FDC86ACA2B6827B700F5F2D3 /* ExpenseWidgetEntry.swift */,
+				FDC86AD32B68329100F5F2D3 /* ExpenseItemView.swift */,
+				FDC86ACC2B68324E00F5F2D3 /* ExpenseWidgetView.swift */,
+				FDC86ACE2B68326600F5F2D3 /* ExpenseWidgetTimelineProvider.swift */,
+				FDC86AD02B68327400F5F2D3 /* ExpenseWidget.swift */,
+			);
+			path = ExpenseWidget;
 			sourceTree = "<group>";
 		};
 		FDD64DFD2B6142B800EAE354 /* WorkoutTracker */ = {
@@ -478,12 +580,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD1FBC782B6A8F2100FD0FC4 /* Country.swift in Sources */,
+				FD1FBC7A2B6A8F2D00FD0FC4 /* ExchangeRate.swift in Sources */,
+				FDBFA5F82B6EB83D0016A24B /* ExchangeRateAppView.swift in Sources */,
+				FD20EA342B6D2C4300F94D80 /* CountryExchangeRateView.swift in Sources */,
+				FD20EA322B6D107600F94D80 /* CountryListCell.swift in Sources */,
 				FDA17D6F2B6413AA002E9C48 /* GroceyDataModel.xcdatamodeld in Sources */,
 				FDA80AB32B57EE1200372627 /* ContentView.swift in Sources */,
 				FDA80AB12B57EE1200372627 /* WidgetKitsTestApp.swift in Sources */,
 				FDD64E012B61476800EAE354 /* WorkoutView.swift in Sources */,
 				FDA17D662B63D7C6002E9C48 /* RemindersAppConstants.swift in Sources */,
 				FDA17D722B641FC3002E9C48 /* GroceryConstants.swift in Sources */,
+				FD20EA302B6D07F300F94D80 /* ExchangeRateServices.swift in Sources */,
 				FDA7B7CC2B6691ED00CA6EAD /* CoreDataManager.swift in Sources */,
 				FD0C105A2B65376E00B3679C /* GroceryView.swift in Sources */,
 				FDBC65BC2B62A19600CD31B0 /* ReminderModel.swift in Sources */,
@@ -500,23 +608,35 @@
 			files = (
 				FD2E69582B602F5A009867AF /* WeatherMockData.swift in Sources */,
 				FDB35A272B5BE12500CF24E2 /* Services.swift in Sources */,
+				FDC86AD52B68342A00F5F2D3 /* ExpenseItemView.swift in Sources */,
 				FD2E69562B602E05009867AF /* WeatherWidgetEntry.swift in Sources */,
 				FDA7B7D22B66D97700CA6EAD /* GroceyEntry.swift in Sources */,
 				FDA80ACA2B57EE7F00372627 /* SimpleStaticWidgetBundle.swift in Sources */,
 				FD9AFC092B61810B005D133D /* WorkoutWidgetEntry.swift in Sources */,
 				FD2E69542B602C68009867AF /* WeatherUtil.swift in Sources */,
 				FDA80AE62B58421D00372627 /* TodayInfoTimeLineProvider.swift in Sources */,
+				FDC86ACD2B68324E00F5F2D3 /* ExpenseWidgetView.swift in Sources */,
 				FDA80AE12B58396200372627 /* HelloStaticWidgetWidget.swift in Sources */,
 				FDA80AEA2B584EF000372627 /* TodayInfoWidget.swift in Sources */,
+				FDC86AD12B68327400F5F2D3 /* ExpenseWidget.swift in Sources */,
+				FDBFA5F32B6EA69F0016A24B /* ExchangeRateWidgetView.swift in Sources */,
 				FDA80ADF2B58343D00372627 /* HelloStaticWidgetTimeLineProvider.swift in Sources */,
 				FDA80AE42B5841C600372627 /* TodayInfoTimeLineEntry.swift in Sources */,
 				FDA17D6A2B63D8F5002E9C48 /* RemindersWidgetWidget.swift in Sources */,
+				FDC86ABC2B67FFBF00F5F2D3 /* SelectionColorIntents.intentdefinition in Sources */,
 				FDB35A292B5C268800CF24E2 /* NetworkImageView.swift in Sources */,
+				FDC86AC22B68048800F5F2D3 /* ColorWidgetTimelineProvider.swift in Sources */,
+				FDBFA5F12B6EA6840016A24B /* ExchangeRateWidget.swift in Sources */,
+				FDC86ABE2B6803F700F5F2D3 /* ColorWidgetView.swift in Sources */,
 				FDB35A212B5BB44A00CF24E2 /* QuoteTimelineProvider.swift in Sources */,
+				FDBFA5ED2B6EA6600016A24B /* ExchangeRateWidgetEntry.swift in Sources */,
 				FDB35A1F2B5BB44200CF24E2 /* QuoteModel.swift in Sources */,
 				FD2E695E2B6042FC009867AF /* WeatherSubview.swift in Sources */,
+				FDBFA5F92B6EBAFF0016A24B /* CountryListCell.swift in Sources */,
 				FDD64E022B61476800EAE354 /* WorkoutView.swift in Sources */,
 				FDA17D692B63D8F0002E9C48 /* RemindersWidgetTimeline.swift in Sources */,
+				FDBFA5F52B6EA6BD0016A24B /* ExchangeRate.swift in Sources */,
+				FDBFA5F42B6EA6B90016A24B /* Country.swift in Sources */,
 				FDBC65B32B62646900CD31B0 /* RemindersWidgetView.swift in Sources */,
 				FDA17D682B63D8ED002E9C48 /* RemindersWidgetEntry.swift in Sources */,
 				FD03D4E02B5AB7DE00728B28 /* QuoteView.swift in Sources */,
@@ -528,21 +648,29 @@
 				FDA7B7D92B66DF8000CA6EAD /* GroceryWidget.swift in Sources */,
 				FDB35A222B5BB44D00CF24E2 /* QuotesTimelineEntry.swift in Sources */,
 				FDA80ADB2B57F05B00372627 /* HelloStaticWidgetView.swift in Sources */,
+				FDC86AC72B68175000F5F2D3 /* Expense.intentdefinition in Sources */,
 				FDA7B7D42B66D9B200CA6EAD /* GroceryTimeline.swift in Sources */,
+				FDBFA5F62B6EA6CB0016A24B /* ExchangeRateServices.swift in Sources */,
 				FD2E69602B6046A8009867AF /* DailyWeatherView.swift in Sources */,
 				FDA80AD92B57EF4200372627 /* HelloStaticWidgetEntry.swift in Sources */,
 				FD2E695C2B60427B009867AF /* WeatherWidgetView.swift in Sources */,
 				FDA17D702B6413AA002E9C48 /* GroceyDataModel.xcdatamodeld in Sources */,
 				FD2E695A2B6030FC009867AF /* WeatherWidgetProvider.swift in Sources */,
 				FD0C105D2B65387E00B3679C /* Color+Extension.swift in Sources */,
+				FDC86ACB2B6827B700F5F2D3 /* ExpenseWidgetEntry.swift in Sources */,
+				FDBFA5EF2B6EA6730016A24B /* ExchangeRateWidgetTimeline.swift in Sources */,
+				FDC86AC92B6817E700F5F2D3 /* ExpenseCategory.swift in Sources */,
 				FDA80ACC2B57EE7F00372627 /* SimpleStaticWidget.swift in Sources */,
 				FDB35A202B5BB44700CF24E2 /* QuoteServices.swift in Sources */,
 				FD9AFC082B618109005D133D /* WorkoutTimelineProvider.swift in Sources */,
 				FD2E69522B602A5C009867AF /* Model.swift in Sources */,
 				FDA7B7D72B66DF0F00CA6EAD /* Logger.swift in Sources */,
+				FDC86AC42B68080A00F5F2D3 /* ColorWidgetWidget.swift in Sources */,
 				FDB35A242B5BD4CE00CF24E2 /* QuoteWidget.swift in Sources */,
 				FD2E69622B604ADB009867AF /* WeatherWidgetWidget.swift in Sources */,
+				FDC86ACF2B68326600F5F2D3 /* ExpenseWidgetTimelineProvider.swift in Sources */,
 				FDA80AE82B584D7A00372627 /* TodayInfoView.swift in Sources */,
+				FDC86AC02B68041300F5F2D3 /* ColorWidgetEntry.swift in Sources */,
 				FDA17D672B63D8D4002E9C48 /* RemindersAppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,22 +13,34 @@ struct SimpleStaticWidgetBundle: WidgetBundle {
     
     @WidgetBundleBuilder
     var body: some Widget {
-//        SimpleStaticWidget()
         
-//        HelloStaticWidgetWidget()
-         
-//        TodayInfoWidget()
+//        SimpleStaticWidgetBundle_SubBundle().body
         
-//        QuoteWidget()
+        ExpenseWidget()
         
-//        WeatherWidgetWidget()
-        
-//        WorkoutWidget()
-        
-//        RemindersWidgetWidget()
-        
-        GroceryWidget()
+        ExchangeRateWidget()
             
     }
 }
 
+struct SimpleStaticWidgetBundle_SubBundle: WidgetBundle {
+    var body: some Widget {
+        SimpleStaticWidget()
+        
+        HelloStaticWidgetWidget()
+         
+        TodayInfoWidget()
+        
+        QuoteWidget()
+        
+        WeatherWidgetWidget()
+        
+        WorkoutWidget()
+        
+        RemindersWidgetWidget()
+        
+        GroceryWidget()
+        
+        ColorWidgetWidget()
+    }
+}
