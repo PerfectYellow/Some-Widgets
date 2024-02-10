@@ -15,7 +15,9 @@ struct ContentView: View {
         
 //        GroceryView()
         
-        ExchangeRateAppView()
+//        ExchangeRateAppView()
+        
+        StockView(stock: StockObservation())
     }
 }
 

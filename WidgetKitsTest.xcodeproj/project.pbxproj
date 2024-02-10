@@ -11,11 +11,26 @@
 		FD0C105A2B65376E00B3679C /* GroceryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C10592B65376E00B3679C /* GroceryView.swift */; };
 		FD0C105C2B65387E00B3679C /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C105B2B65387E00B3679C /* Color+Extension.swift */; };
 		FD0C105D2B65387E00B3679C /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C105B2B65387E00B3679C /* Color+Extension.swift */; };
+		FD14CA3C2B77D3B8003AA9A7 /* PedometerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14CA3B2B77D3B8003AA9A7 /* PedometerModel.swift */; };
+		FD14CA3D2B77D3B8003AA9A7 /* PedometerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14CA3B2B77D3B8003AA9A7 /* PedometerModel.swift */; };
+		FD14CA3F2B77D403003AA9A7 /* PedometerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14CA3E2B77D403003AA9A7 /* PedometerManager.swift */; };
+		FD14CA402B77D403003AA9A7 /* PedometerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14CA3E2B77D403003AA9A7 /* PedometerManager.swift */; };
+		FD14CA422B77DBFD003AA9A7 /* PedometerConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14CA412B77DBFD003AA9A7 /* PedometerConstant.swift */; };
+		FD14CA432B77DBFD003AA9A7 /* PedometerConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14CA412B77DBFD003AA9A7 /* PedometerConstant.swift */; };
+		FD14CA452B77E2B7003AA9A7 /* PedometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14CA442B77E2B7003AA9A7 /* PedometerView.swift */; };
+		FD14CA472B780011003AA9A7 /* PedometerWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14CA462B780011003AA9A7 /* PedometerWidget.swift */; };
+		FD14CA492B7802E3003AA9A7 /* PedometerWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14CA482B7802E3003AA9A7 /* PedometerWidgetView.swift */; };
+		FD14CA4B2B780317003AA9A7 /* PedometerEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14CA4A2B780317003AA9A7 /* PedometerEntry.swift */; };
+		FD14CA4D2B780457003AA9A7 /* PedometerTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14CA4C2B780457003AA9A7 /* PedometerTimelineProvider.swift */; };
 		FD1FBC782B6A8F2100FD0FC4 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1FBC772B6A8F2100FD0FC4 /* Country.swift */; };
 		FD1FBC7A2B6A8F2D00FD0FC4 /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1FBC792B6A8F2D00FD0FC4 /* ExchangeRate.swift */; };
 		FD20EA302B6D07F300F94D80 /* ExchangeRateServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD20EA2F2B6D07F300F94D80 /* ExchangeRateServices.swift */; };
 		FD20EA322B6D107600F94D80 /* CountryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD20EA312B6D107600F94D80 /* CountryListCell.swift */; };
 		FD20EA342B6D2C4300F94D80 /* CountryExchangeRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD20EA332B6D2C4300F94D80 /* CountryExchangeRateView.swift */; };
+		FD214CCA2B6F928C0098E5C9 /* StockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD214CC92B6F928C0098E5C9 /* StockModel.swift */; };
+		FD214CCC2B6F94BC0098E5C9 /* StockServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD214CCB2B6F94BC0098E5C9 /* StockServices.swift */; };
+		FD214CCD2B6F94BC0098E5C9 /* StockServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD214CCB2B6F94BC0098E5C9 /* StockServices.swift */; };
+		FD214CCF2B6F97A00098E5C9 /* StockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD214CCE2B6F97A00098E5C9 /* StockView.swift */; };
 		FD2E69522B602A5C009867AF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E69512B602A5C009867AF /* Model.swift */; };
 		FD2E69542B602C68009867AF /* WeatherUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E69532B602C68009867AF /* WeatherUtil.swift */; };
 		FD2E69562B602E05009867AF /* WeatherWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E69552B602E05009867AF /* WeatherWidgetEntry.swift */; };
@@ -25,6 +40,12 @@
 		FD2E695E2B6042FC009867AF /* WeatherSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E695D2B6042FC009867AF /* WeatherSubview.swift */; };
 		FD2E69602B6046A8009867AF /* DailyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E695F2B6046A8009867AF /* DailyWeatherView.swift */; };
 		FD2E69622B604ADB009867AF /* WeatherWidgetWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E69612B604ADB009867AF /* WeatherWidgetWidget.swift */; };
+		FD5EFADA2B7171F30005694E /* TestServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5EFAD92B7171F30005694E /* TestServices.swift */; };
+		FD948CA32B7641A0003732E5 /* StockTimelineEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD948CA22B7641A0003732E5 /* StockTimelineEntry.swift */; };
+		FD948CA52B76453E003732E5 /* StockIntent.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = FD948CA42B76453E003732E5 /* StockIntent.intentdefinition */; };
+		FD948CAC2B76475A003732E5 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD948CAB2B76475A003732E5 /* Intents.framework */; };
+		FD948CAF2B76475A003732E5 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD948CAE2B76475A003732E5 /* IntentHandler.swift */; };
+		FD948CB32B76475A003732E5 /* CustomStockIntentEX.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FD948CAA2B76475A003732E5 /* CustomStockIntentEX.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		FD9AFC072B618105005D133D /* WorkoutWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9AFC052B617F06005D133D /* WorkoutWidget.swift */; };
 		FD9AFC082B618109005D133D /* WorkoutTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9AFC032B617889005D133D /* WorkoutTimelineProvider.swift */; };
 		FD9AFC092B61810B005D133D /* WorkoutWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9AFC002B617727005D133D /* WorkoutWidgetEntry.swift */; };
@@ -63,6 +84,11 @@
 		FDA80AE62B58421D00372627 /* TodayInfoTimeLineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA80AE52B58421D00372627 /* TodayInfoTimeLineProvider.swift */; };
 		FDA80AE82B584D7A00372627 /* TodayInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA80AE72B584D7A00372627 /* TodayInfoView.swift */; };
 		FDA80AEA2B584EF000372627 /* TodayInfoWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA80AE92B584EF000372627 /* TodayInfoWidget.swift */; };
+		FDA8DB812B76620F001FB3FE /* StockIntent.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = FD948CA42B76453E003732E5 /* StockIntent.intentdefinition */; };
+		FDA8DB822B766210001FB3FE /* StockIntent.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = FD948CA42B76453E003732E5 /* StockIntent.intentdefinition */; };
+		FDA8DB842B7669F7001FB3FE /* StockTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA8DB832B7669F7001FB3FE /* StockTimelineProvider.swift */; };
+		FDA8DB862B766C2B001FB3FE /* StockWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA8DB852B766C2B001FB3FE /* StockWidgetView.swift */; };
+		FDA8DB882B7671D4001FB3FE /* StockWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA8DB872B7671D4001FB3FE /* StockWidget.swift */; };
 		FDB35A1F2B5BB44200CF24E2 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03D4D82B5A9C3400728B28 /* QuoteModel.swift */; };
 		FDB35A202B5BB44700CF24E2 /* QuoteServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03D4DA2B5A9C4400728B28 /* QuoteServices.swift */; };
 		FDB35A212B5BB44A00CF24E2 /* QuoteTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03D4DC2B5AB3A700728B28 /* QuoteTimelineProvider.swift */; };
@@ -98,9 +124,17 @@
 		FDD64E012B61476800EAE354 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD64E002B61476800EAE354 /* WorkoutView.swift */; };
 		FDD64E022B61476800EAE354 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD64E002B61476800EAE354 /* WorkoutView.swift */; };
 		FDD64E032B6148CC00EAE354 /* WorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD64DFE2B61433C00EAE354 /* WorkoutModel.swift */; };
+		FDF65A702B7024A900D74F0D /* StockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD214CC92B6F928C0098E5C9 /* StockModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		FD948CB12B76475A003732E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA80AA52B57EE1200372627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD948CA92B76475A003732E5;
+			remoteInfo = CustomStockIntentEX;
+		};
 		FDA80AD02B57EE8100372627 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FDA80AA52B57EE1200372627 /* Project object */;
@@ -118,6 +152,7 @@
 			dstSubfolderSpec = 13;
 			files = (
 				FDA80AD22B57EE8100372627 /* SimpleStaticWidgetExtension.appex in Embed Foundation Extensions */,
+				FD948CB32B76475A003732E5 /* CustomStockIntentEX.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,11 +167,22 @@
 		FD03D4DE2B5AB6AA00728B28 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 		FD0C10592B65376E00B3679C /* GroceryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryView.swift; sourceTree = "<group>"; };
 		FD0C105B2B65387E00B3679C /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		FD14CA3B2B77D3B8003AA9A7 /* PedometerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerModel.swift; sourceTree = "<group>"; };
+		FD14CA3E2B77D403003AA9A7 /* PedometerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerManager.swift; sourceTree = "<group>"; };
+		FD14CA412B77DBFD003AA9A7 /* PedometerConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerConstant.swift; sourceTree = "<group>"; };
+		FD14CA442B77E2B7003AA9A7 /* PedometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerView.swift; sourceTree = "<group>"; };
+		FD14CA462B780011003AA9A7 /* PedometerWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerWidget.swift; sourceTree = "<group>"; };
+		FD14CA482B7802E3003AA9A7 /* PedometerWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerWidgetView.swift; sourceTree = "<group>"; };
+		FD14CA4A2B780317003AA9A7 /* PedometerEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerEntry.swift; sourceTree = "<group>"; };
+		FD14CA4C2B780457003AA9A7 /* PedometerTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerTimelineProvider.swift; sourceTree = "<group>"; };
 		FD1FBC772B6A8F2100FD0FC4 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		FD1FBC792B6A8F2D00FD0FC4 /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
 		FD20EA2F2B6D07F300F94D80 /* ExchangeRateServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateServices.swift; sourceTree = "<group>"; };
 		FD20EA312B6D107600F94D80 /* CountryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListCell.swift; sourceTree = "<group>"; };
 		FD20EA332B6D2C4300F94D80 /* CountryExchangeRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryExchangeRateView.swift; sourceTree = "<group>"; };
+		FD214CC92B6F928C0098E5C9 /* StockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockModel.swift; sourceTree = "<group>"; };
+		FD214CCB2B6F94BC0098E5C9 /* StockServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockServices.swift; sourceTree = "<group>"; };
+		FD214CCE2B6F97A00098E5C9 /* StockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockView.swift; sourceTree = "<group>"; };
 		FD2E69512B602A5C009867AF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		FD2E69532B602C68009867AF /* WeatherUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherUtil.swift; sourceTree = "<group>"; };
 		FD2E69552B602E05009867AF /* WeatherWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidgetEntry.swift; sourceTree = "<group>"; };
@@ -146,6 +192,13 @@
 		FD2E695D2B6042FC009867AF /* WeatherSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSubview.swift; sourceTree = "<group>"; };
 		FD2E695F2B6046A8009867AF /* DailyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherView.swift; sourceTree = "<group>"; };
 		FD2E69612B604ADB009867AF /* WeatherWidgetWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidgetWidget.swift; sourceTree = "<group>"; };
+		FD5EFAD92B7171F30005694E /* TestServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestServices.swift; sourceTree = "<group>"; };
+		FD948CA22B7641A0003732E5 /* StockTimelineEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTimelineEntry.swift; sourceTree = "<group>"; };
+		FD948CA42B76453E003732E5 /* StockIntent.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = StockIntent.intentdefinition; sourceTree = "<group>"; };
+		FD948CAA2B76475A003732E5 /* CustomStockIntentEX.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CustomStockIntentEX.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD948CAB2B76475A003732E5 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		FD948CAE2B76475A003732E5 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		FD948CB02B76475A003732E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD9AFC002B617727005D133D /* WorkoutWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutWidgetEntry.swift; sourceTree = "<group>"; };
 		FD9AFC032B617889005D133D /* WorkoutTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTimelineProvider.swift; sourceTree = "<group>"; };
 		FD9AFC052B617F06005D133D /* WorkoutWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutWidget.swift; sourceTree = "<group>"; };
@@ -178,6 +231,9 @@
 		FDA80AE52B58421D00372627 /* TodayInfoTimeLineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayInfoTimeLineProvider.swift; sourceTree = "<group>"; };
 		FDA80AE72B584D7A00372627 /* TodayInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayInfoView.swift; sourceTree = "<group>"; };
 		FDA80AE92B584EF000372627 /* TodayInfoWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayInfoWidget.swift; sourceTree = "<group>"; };
+		FDA8DB832B7669F7001FB3FE /* StockTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTimelineProvider.swift; sourceTree = "<group>"; };
+		FDA8DB852B766C2B001FB3FE /* StockWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockWidgetView.swift; sourceTree = "<group>"; };
+		FDA8DB872B7671D4001FB3FE /* StockWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockWidget.swift; sourceTree = "<group>"; };
 		FDB35A232B5BD4CE00CF24E2 /* QuoteWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteWidget.swift; sourceTree = "<group>"; };
 		FDB35A262B5BE12500CF24E2 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		FDB35A282B5C268800CF24E2 /* NetworkImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImageView.swift; sourceTree = "<group>"; };
@@ -211,6 +267,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FD948CA72B76475A003732E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD948CAC2B76475A003732E5 /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FDA80AAA2B57EE1200372627 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,6 +307,28 @@
 			path = QuotesWidget;
 			sourceTree = "<group>";
 		};
+		FD14CA392B77D309003AA9A7 /* Pedometer */ = {
+			isa = PBXGroup;
+			children = (
+				FD14CA3B2B77D3B8003AA9A7 /* PedometerModel.swift */,
+				FD14CA3E2B77D403003AA9A7 /* PedometerManager.swift */,
+				FD14CA412B77DBFD003AA9A7 /* PedometerConstant.swift */,
+				FD14CA442B77E2B7003AA9A7 /* PedometerView.swift */,
+			);
+			path = Pedometer;
+			sourceTree = "<group>";
+		};
+		FD14CA3A2B77D327003AA9A7 /* PedometerWidget */ = {
+			isa = PBXGroup;
+			children = (
+				FD14CA462B780011003AA9A7 /* PedometerWidget.swift */,
+				FD14CA4C2B780457003AA9A7 /* PedometerTimelineProvider.swift */,
+				FD14CA482B7802E3003AA9A7 /* PedometerWidgetView.swift */,
+				FD14CA4A2B780317003AA9A7 /* PedometerEntry.swift */,
+			);
+			path = PedometerWidget;
+			sourceTree = "<group>";
+		};
 		FD1FBC752B6A8EE200FD0FC4 /* ExchangeRateApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -267,6 +353,16 @@
 			path = ExchangeRateWidget;
 			sourceTree = "<group>";
 		};
+		FD214CC82B6F92650098E5C9 /* StockApp */ = {
+			isa = PBXGroup;
+			children = (
+				FD214CC92B6F928C0098E5C9 /* StockModel.swift */,
+				FD214CCB2B6F94BC0098E5C9 /* StockServices.swift */,
+				FD214CCE2B6F97A00098E5C9 /* StockView.swift */,
+			);
+			path = StockApp;
+			sourceTree = "<group>";
+		};
 		FD2E69632B604E47009867AF /* ChartWidget */ = {
 			isa = PBXGroup;
 			children = (
@@ -275,6 +371,35 @@
 				FD9AFC052B617F06005D133D /* WorkoutWidget.swift */,
 			);
 			path = ChartWidget;
+			sourceTree = "<group>";
+		};
+		FD5EFAD82B7171D20005694E /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				FD5EFAD92B7171F30005694E /* TestServices.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		FD948CA12B76417D003732E5 /* StockWidget */ = {
+			isa = PBXGroup;
+			children = (
+				FD948CA42B76453E003732E5 /* StockIntent.intentdefinition */,
+				FD948CA22B7641A0003732E5 /* StockTimelineEntry.swift */,
+				FDA8DB852B766C2B001FB3FE /* StockWidgetView.swift */,
+				FDA8DB832B7669F7001FB3FE /* StockTimelineProvider.swift */,
+				FDA8DB872B7671D4001FB3FE /* StockWidget.swift */,
+			);
+			path = StockWidget;
+			sourceTree = "<group>";
+		};
+		FD948CAD2B76475A003732E5 /* CustomStockIntentEX */ = {
+			isa = PBXGroup;
+			children = (
+				FD948CAE2B76475A003732E5 /* IntentHandler.swift */,
+				FD948CB02B76475A003732E5 /* Info.plist */,
+			);
+			path = CustomStockIntentEX;
 			sourceTree = "<group>";
 		};
 		FDA17D6B2B641361002E9C48 /* Grocey */ = {
@@ -324,6 +449,9 @@
 				FDC86ABA2B67B5D800F5F2D3 /* ColorWidget */,
 				FDC86AC52B68171800F5F2D3 /* ExpenseWidget */,
 				FD1FBC762B6A8EFC00FD0FC4 /* ExchangeRateWidget */,
+				FD948CA12B76417D003732E5 /* StockWidget */,
+				FD14CA3A2B77D327003AA9A7 /* PedometerWidget */,
+				FD948CAD2B76475A003732E5 /* CustomStockIntentEX */,
 				FDA80AC32B57EE7F00372627 /* Frameworks */,
 				FDA80AAE2B57EE1200372627 /* Products */,
 			);
@@ -334,6 +462,7 @@
 			children = (
 				FDA80AAD2B57EE1200372627 /* WidgetKitsTest.app */,
 				FDA80AC22B57EE7F00372627 /* SimpleStaticWidgetExtension.appex */,
+				FD948CAA2B76475A003732E5 /* CustomStockIntentEX.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -342,11 +471,14 @@
 			isa = PBXGroup;
 			children = (
 				FDBC65AE2B62632800CD31B0 /* WidgetKitsTest.entitlements */,
+				FD5EFAD82B7171D20005694E /* Test */,
 				FDA7B7CE2B669DBE00CA6EAD /* Logger */,
 				FDD64DFD2B6142B800EAE354 /* WorkoutTracker */,
 				FDBC65BA2B62A16B00CD31B0 /* RemindersModel */,
 				FDA17D6B2B641361002E9C48 /* Grocey */,
 				FD1FBC752B6A8EE200FD0FC4 /* ExchangeRateApp */,
+				FD214CC82B6F92650098E5C9 /* StockApp */,
+				FD14CA392B77D309003AA9A7 /* Pedometer */,
 				FDA80AB02B57EE1200372627 /* WidgetKitsTestApp.swift */,
 				FDA80AB22B57EE1200372627 /* ContentView.swift */,
 				FDA80AB42B57EE1300372627 /* Assets.xcassets */,
@@ -368,6 +500,7 @@
 			children = (
 				FDA80AC42B57EE7F00372627 /* WidgetKit.framework */,
 				FDA80AC62B57EE7F00372627 /* SwiftUI.framework */,
+				FD948CAB2B76475A003732E5 /* Intents.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -482,6 +615,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FD948CA92B76475A003732E5 /* CustomStockIntentEX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD948CB42B76475A003732E5 /* Build configuration list for PBXNativeTarget "CustomStockIntentEX" */;
+			buildPhases = (
+				FD948CA62B76475A003732E5 /* Sources */,
+				FD948CA72B76475A003732E5 /* Frameworks */,
+				FD948CA82B76475A003732E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomStockIntentEX;
+			productName = CustomStockIntentEX;
+			productReference = FD948CAA2B76475A003732E5 /* CustomStockIntentEX.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		FDA80AAC2B57EE1200372627 /* WidgetKitsTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDA80ABB2B57EE1300372627 /* Build configuration list for PBXNativeTarget "WidgetKitsTest" */;
@@ -495,6 +645,7 @@
 			);
 			dependencies = (
 				FDA80AD12B57EE8100372627 /* PBXTargetDependency */,
+				FD948CB22B76475A003732E5 /* PBXTargetDependency */,
 			);
 			name = WidgetKitsTest;
 			productName = WidgetKitsTest;
@@ -528,6 +679,9 @@
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
+					FD948CA92B76475A003732E5 = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					FDA80AAC2B57EE1200372627 = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -551,11 +705,19 @@
 			targets = (
 				FDA80AAC2B57EE1200372627 /* WidgetKitsTest */,
 				FDA80AC12B57EE7F00372627 /* SimpleStaticWidgetExtension */,
+				FD948CA92B76475A003732E5 /* CustomStockIntentEX */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FD948CA82B76475A003732E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FDA80AAB2B57EE1200372627 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -576,6 +738,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FD948CA62B76475A003732E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD948CAF2B76475A003732E5 /* IntentHandler.swift in Sources */,
+				FDA8DB812B76620F001FB3FE /* StockIntent.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FDA80AA92B57EE1200372627 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -593,11 +764,20 @@
 				FDA17D722B641FC3002E9C48 /* GroceryConstants.swift in Sources */,
 				FD20EA302B6D07F300F94D80 /* ExchangeRateServices.swift in Sources */,
 				FDA7B7CC2B6691ED00CA6EAD /* CoreDataManager.swift in Sources */,
+				FD14CA422B77DBFD003AA9A7 /* PedometerConstant.swift in Sources */,
 				FD0C105A2B65376E00B3679C /* GroceryView.swift in Sources */,
 				FDBC65BC2B62A19600CD31B0 /* ReminderModel.swift in Sources */,
 				FDA7B7D02B669DCB00CA6EAD /* Logger.swift in Sources */,
+				FD14CA3C2B77D3B8003AA9A7 /* PedometerModel.swift in Sources */,
+				FD214CCC2B6F94BC0098E5C9 /* StockServices.swift in Sources */,
+				FD214CCF2B6F97A00098E5C9 /* StockView.swift in Sources */,
+				FD214CCA2B6F928C0098E5C9 /* StockModel.swift in Sources */,
+				FDA8DB822B766210001FB3FE /* StockIntent.intentdefinition in Sources */,
+				FD14CA3F2B77D403003AA9A7 /* PedometerManager.swift in Sources */,
 				FDD64DFF2B61433C00EAE354 /* WorkoutModel.swift in Sources */,
 				FD0C105C2B65387E00B3679C /* Color+Extension.swift in Sources */,
+				FD5EFADA2B7171F30005694E /* TestServices.swift in Sources */,
+				FD14CA452B77E2B7003AA9A7 /* PedometerView.swift in Sources */,
 				FDBC65BF2B62A26500CD31B0 /* RemindersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -609,19 +789,24 @@
 				FD2E69582B602F5A009867AF /* WeatherMockData.swift in Sources */,
 				FDB35A272B5BE12500CF24E2 /* Services.swift in Sources */,
 				FDC86AD52B68342A00F5F2D3 /* ExpenseItemView.swift in Sources */,
+				FD948CA52B76453E003732E5 /* StockIntent.intentdefinition in Sources */,
 				FD2E69562B602E05009867AF /* WeatherWidgetEntry.swift in Sources */,
 				FDA7B7D22B66D97700CA6EAD /* GroceyEntry.swift in Sources */,
 				FDA80ACA2B57EE7F00372627 /* SimpleStaticWidgetBundle.swift in Sources */,
 				FD9AFC092B61810B005D133D /* WorkoutWidgetEntry.swift in Sources */,
 				FD2E69542B602C68009867AF /* WeatherUtil.swift in Sources */,
+				FDF65A702B7024A900D74F0D /* StockModel.swift in Sources */,
 				FDA80AE62B58421D00372627 /* TodayInfoTimeLineProvider.swift in Sources */,
 				FDC86ACD2B68324E00F5F2D3 /* ExpenseWidgetView.swift in Sources */,
 				FDA80AE12B58396200372627 /* HelloStaticWidgetWidget.swift in Sources */,
+				FD14CA432B77DBFD003AA9A7 /* PedometerConstant.swift in Sources */,
 				FDA80AEA2B584EF000372627 /* TodayInfoWidget.swift in Sources */,
 				FDC86AD12B68327400F5F2D3 /* ExpenseWidget.swift in Sources */,
 				FDBFA5F32B6EA69F0016A24B /* ExchangeRateWidgetView.swift in Sources */,
+				FDA8DB842B7669F7001FB3FE /* StockTimelineProvider.swift in Sources */,
 				FDA80ADF2B58343D00372627 /* HelloStaticWidgetTimeLineProvider.swift in Sources */,
 				FDA80AE42B5841C600372627 /* TodayInfoTimeLineEntry.swift in Sources */,
+				FD14CA3D2B77D3B8003AA9A7 /* PedometerModel.swift in Sources */,
 				FDA17D6A2B63D8F5002E9C48 /* RemindersWidgetWidget.swift in Sources */,
 				FDC86ABC2B67FFBF00F5F2D3 /* SelectionColorIntents.intentdefinition in Sources */,
 				FDB35A292B5C268800CF24E2 /* NetworkImageView.swift in Sources */,
@@ -633,21 +818,27 @@
 				FDB35A1F2B5BB44200CF24E2 /* QuoteModel.swift in Sources */,
 				FD2E695E2B6042FC009867AF /* WeatherSubview.swift in Sources */,
 				FDBFA5F92B6EBAFF0016A24B /* CountryListCell.swift in Sources */,
+				FD948CA32B7641A0003732E5 /* StockTimelineEntry.swift in Sources */,
 				FDD64E022B61476800EAE354 /* WorkoutView.swift in Sources */,
 				FDA17D692B63D8F0002E9C48 /* RemindersWidgetTimeline.swift in Sources */,
 				FDBFA5F52B6EA6BD0016A24B /* ExchangeRate.swift in Sources */,
 				FDBFA5F42B6EA6B90016A24B /* Country.swift in Sources */,
+				FD214CCD2B6F94BC0098E5C9 /* StockServices.swift in Sources */,
+				FD14CA4B2B780317003AA9A7 /* PedometerEntry.swift in Sources */,
 				FDBC65B32B62646900CD31B0 /* RemindersWidgetView.swift in Sources */,
 				FDA17D682B63D8ED002E9C48 /* RemindersWidgetEntry.swift in Sources */,
 				FD03D4E02B5AB7DE00728B28 /* QuoteView.swift in Sources */,
 				FDD64E032B6148CC00EAE354 /* WorkoutModel.swift in Sources */,
 				FD9AFC072B618105005D133D /* WorkoutWidget.swift in Sources */,
+				FDA8DB882B7671D4001FB3FE /* StockWidget.swift in Sources */,
 				FDA7B7D62B66DA4800CA6EAD /* GroceryWidgetView.swift in Sources */,
 				FDA7B7CD2B66920200CA6EAD /* CoreDataManager.swift in Sources */,
 				FDA17D732B641FC3002E9C48 /* GroceryConstants.swift in Sources */,
 				FDA7B7D92B66DF8000CA6EAD /* GroceryWidget.swift in Sources */,
+				FD14CA4D2B780457003AA9A7 /* PedometerTimelineProvider.swift in Sources */,
 				FDB35A222B5BB44D00CF24E2 /* QuotesTimelineEntry.swift in Sources */,
 				FDA80ADB2B57F05B00372627 /* HelloStaticWidgetView.swift in Sources */,
+				FD14CA472B780011003AA9A7 /* PedometerWidget.swift in Sources */,
 				FDC86AC72B68175000F5F2D3 /* Expense.intentdefinition in Sources */,
 				FDA7B7D42B66D9B200CA6EAD /* GroceryTimeline.swift in Sources */,
 				FDBFA5F62B6EA6CB0016A24B /* ExchangeRateServices.swift in Sources */,
@@ -660,10 +851,13 @@
 				FDC86ACB2B6827B700F5F2D3 /* ExpenseWidgetEntry.swift in Sources */,
 				FDBFA5EF2B6EA6730016A24B /* ExchangeRateWidgetTimeline.swift in Sources */,
 				FDC86AC92B6817E700F5F2D3 /* ExpenseCategory.swift in Sources */,
+				FDA8DB862B766C2B001FB3FE /* StockWidgetView.swift in Sources */,
+				FD14CA492B7802E3003AA9A7 /* PedometerWidgetView.swift in Sources */,
 				FDA80ACC2B57EE7F00372627 /* SimpleStaticWidget.swift in Sources */,
 				FDB35A202B5BB44700CF24E2 /* QuoteServices.swift in Sources */,
 				FD9AFC082B618109005D133D /* WorkoutTimelineProvider.swift in Sources */,
 				FD2E69522B602A5C009867AF /* Model.swift in Sources */,
+				FD14CA402B77D403003AA9A7 /* PedometerManager.swift in Sources */,
 				FDA7B7D72B66DF0F00CA6EAD /* Logger.swift in Sources */,
 				FDC86AC42B68080A00F5F2D3 /* ColorWidgetWidget.swift in Sources */,
 				FDB35A242B5BD4CE00CF24E2 /* QuoteWidget.swift in Sources */,
@@ -678,6 +872,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		FD948CB22B76475A003732E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD948CA92B76475A003732E5 /* CustomStockIntentEX */;
+			targetProxy = FD948CB12B76475A003732E5 /* PBXContainerItemProxy */;
+		};
 		FDA80AD12B57EE8100372627 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FDA80AC12B57EE7F00372627 /* SimpleStaticWidgetExtension */;
@@ -686,6 +885,56 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		FD948CB52B76475A003732E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LJT266936C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomStockIntentEX/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CustomStockIntentEX;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yellow.WidgetKitsTest.CustomStockIntentEX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD948CB62B76475A003732E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LJT266936C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomStockIntentEX/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CustomStockIntentEX;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yellow.WidgetKitsTest.CustomStockIntentEX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		FDA80AB92B57EE1300372627 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -818,6 +1067,7 @@
 				DEVELOPMENT_TEAM = LJT266936C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMotionUsageDescription = "Please give access to use motion";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -849,6 +1099,7 @@
 				DEVELOPMENT_TEAM = LJT266936C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMotionUsageDescription = "Please give access to use motion";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -926,6 +1177,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FD948CB42B76475A003732E5 /* Build configuration list for PBXNativeTarget "CustomStockIntentEX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD948CB52B76475A003732E5 /* Debug */,
+				FD948CB62B76475A003732E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FDA80AA82B57EE1200372627 /* Build configuration list for PBXProject "WidgetKitsTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -20,6 +20,7 @@ struct SimpleStaticWidgetBundle: WidgetBundle {
         
         ExchangeRateWidget()
             
+        StockWidget()
     }
 }
 
