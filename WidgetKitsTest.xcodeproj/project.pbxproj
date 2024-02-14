@@ -22,6 +22,11 @@
 		FD14CA492B7802E3003AA9A7 /* PedometerWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14CA482B7802E3003AA9A7 /* PedometerWidgetView.swift */; };
 		FD14CA4B2B780317003AA9A7 /* PedometerEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14CA4A2B780317003AA9A7 /* PedometerEntry.swift */; };
 		FD14CA4D2B780457003AA9A7 /* PedometerTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14CA4C2B780457003AA9A7 /* PedometerTimelineProvider.swift */; };
+		FD160AE12B7A5D96001CEF2C /* FocusTimerAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD160AE02B7A5D96001CEF2C /* FocusTimerAttributes.swift */; };
+		FD160AE22B7A5D96001CEF2C /* FocusTimerAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD160AE02B7A5D96001CEF2C /* FocusTimerAttributes.swift */; };
+		FD160AE42B7A61D7001CEF2C /* FocusTimerEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD160AE32B7A61D7001CEF2C /* FocusTimerEntryView.swift */; };
+		FD160AE62B7A673E001CEF2C /* FocusTimerLiveWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD160AE52B7A673E001CEF2C /* FocusTimerLiveWidget.swift */; };
+		FD160AE82B7AA394001CEF2C /* FocuTimerAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD160AE72B7AA394001CEF2C /* FocuTimerAppView.swift */; };
 		FD1FBC782B6A8F2100FD0FC4 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1FBC772B6A8F2100FD0FC4 /* Country.swift */; };
 		FD1FBC7A2B6A8F2D00FD0FC4 /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1FBC792B6A8F2D00FD0FC4 /* ExchangeRate.swift */; };
 		FD20EA302B6D07F300F94D80 /* ExchangeRateServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD20EA2F2B6D07F300F94D80 /* ExchangeRateServices.swift */; };
@@ -40,7 +45,15 @@
 		FD2E695E2B6042FC009867AF /* WeatherSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E695D2B6042FC009867AF /* WeatherSubview.swift */; };
 		FD2E69602B6046A8009867AF /* DailyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E695F2B6046A8009867AF /* DailyWeatherView.swift */; };
 		FD2E69622B604ADB009867AF /* WeatherWidgetWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E69612B604ADB009867AF /* WeatherWidgetWidget.swift */; };
+		FD5E980E2B7CF8AE00CC2FE9 /* PizzaDeliveryWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5E980D2B7CF8AE00CC2FE9 /* PizzaDeliveryWidget.swift */; };
+		FD5E980F2B7CF90800CC2FE9 /* PizzaOrderingAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAD991F2B7B680E006CB983 /* PizzaOrderingAttribute.swift */; };
 		FD5EFADA2B7171F30005694E /* TestServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5EFAD92B7171F30005694E /* TestServices.swift */; };
+		FD82FE0A2B7BF503004EB9B1 /* PizzaOrderAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD82FE092B7BF503004EB9B1 /* PizzaOrderAppView.swift */; };
+		FD8814092B78DCC80012581C /* FamousPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8814082B78DCC80012581C /* FamousPlace.swift */; };
+		FD88140B2B78F8780012581C /* FamousPlaceTimelineEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88140A2B78F8780012581C /* FamousPlaceTimelineEntry.swift */; };
+		FD88140D2B78F8C60012581C /* FamousPlaceWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88140C2B78F8C60012581C /* FamousPlaceWidgetView.swift */; };
+		FD88140F2B78FB200012581C /* FamousPlaceTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88140E2B78FB200012581C /* FamousPlaceTimelineProvider.swift */; };
+		FD8814112B7907980012581C /* FamousPlaceWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8814102B7907980012581C /* FamousPlaceWidget.swift */; };
 		FD948CA32B7641A0003732E5 /* StockTimelineEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD948CA22B7641A0003732E5 /* StockTimelineEntry.swift */; };
 		FD948CA52B76453E003732E5 /* StockIntent.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = FD948CA42B76453E003732E5 /* StockIntent.intentdefinition */; };
 		FD948CAC2B76475A003732E5 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD948CAB2B76475A003732E5 /* Intents.framework */; };
@@ -89,6 +102,8 @@
 		FDA8DB842B7669F7001FB3FE /* StockTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA8DB832B7669F7001FB3FE /* StockTimelineProvider.swift */; };
 		FDA8DB862B766C2B001FB3FE /* StockWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA8DB852B766C2B001FB3FE /* StockWidgetView.swift */; };
 		FDA8DB882B7671D4001FB3FE /* StockWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA8DB872B7671D4001FB3FE /* StockWidget.swift */; };
+		FDAD99202B7B680E006CB983 /* PizzaOrderingAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAD991F2B7B680E006CB983 /* PizzaOrderingAttribute.swift */; };
+		FDAD99222B7B7696006CB983 /* PizzaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAD99212B7B7696006CB983 /* PizzaType.swift */; };
 		FDB35A1F2B5BB44200CF24E2 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03D4D82B5A9C3400728B28 /* QuoteModel.swift */; };
 		FDB35A202B5BB44700CF24E2 /* QuoteServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03D4DA2B5A9C4400728B28 /* QuoteServices.swift */; };
 		FDB35A212B5BB44A00CF24E2 /* QuoteTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03D4DC2B5AB3A700728B28 /* QuoteTimelineProvider.swift */; };
@@ -175,6 +190,11 @@
 		FD14CA482B7802E3003AA9A7 /* PedometerWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerWidgetView.swift; sourceTree = "<group>"; };
 		FD14CA4A2B780317003AA9A7 /* PedometerEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerEntry.swift; sourceTree = "<group>"; };
 		FD14CA4C2B780457003AA9A7 /* PedometerTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerTimelineProvider.swift; sourceTree = "<group>"; };
+		FD160AE02B7A5D96001CEF2C /* FocusTimerAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimerAttributes.swift; sourceTree = "<group>"; };
+		FD160AE32B7A61D7001CEF2C /* FocusTimerEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimerEntryView.swift; sourceTree = "<group>"; };
+		FD160AE52B7A673E001CEF2C /* FocusTimerLiveWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimerLiveWidget.swift; sourceTree = "<group>"; };
+		FD160AE72B7AA394001CEF2C /* FocuTimerAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocuTimerAppView.swift; sourceTree = "<group>"; };
+		FD160AE92B7AAE78001CEF2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FD1FBC772B6A8F2100FD0FC4 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		FD1FBC792B6A8F2D00FD0FC4 /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
 		FD20EA2F2B6D07F300F94D80 /* ExchangeRateServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateServices.swift; sourceTree = "<group>"; };
@@ -192,7 +212,14 @@
 		FD2E695D2B6042FC009867AF /* WeatherSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSubview.swift; sourceTree = "<group>"; };
 		FD2E695F2B6046A8009867AF /* DailyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherView.swift; sourceTree = "<group>"; };
 		FD2E69612B604ADB009867AF /* WeatherWidgetWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidgetWidget.swift; sourceTree = "<group>"; };
+		FD5E980D2B7CF8AE00CC2FE9 /* PizzaDeliveryWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaDeliveryWidget.swift; sourceTree = "<group>"; };
 		FD5EFAD92B7171F30005694E /* TestServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestServices.swift; sourceTree = "<group>"; };
+		FD82FE092B7BF503004EB9B1 /* PizzaOrderAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaOrderAppView.swift; sourceTree = "<group>"; };
+		FD8814082B78DCC80012581C /* FamousPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamousPlace.swift; sourceTree = "<group>"; };
+		FD88140A2B78F8780012581C /* FamousPlaceTimelineEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamousPlaceTimelineEntry.swift; sourceTree = "<group>"; };
+		FD88140C2B78F8C60012581C /* FamousPlaceWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamousPlaceWidgetView.swift; sourceTree = "<group>"; };
+		FD88140E2B78FB200012581C /* FamousPlaceTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamousPlaceTimelineProvider.swift; sourceTree = "<group>"; };
+		FD8814102B7907980012581C /* FamousPlaceWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamousPlaceWidget.swift; sourceTree = "<group>"; };
 		FD948CA22B7641A0003732E5 /* StockTimelineEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTimelineEntry.swift; sourceTree = "<group>"; };
 		FD948CA42B76453E003732E5 /* StockIntent.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = StockIntent.intentdefinition; sourceTree = "<group>"; };
 		FD948CAA2B76475A003732E5 /* CustomStockIntentEX.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CustomStockIntentEX.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -234,6 +261,8 @@
 		FDA8DB832B7669F7001FB3FE /* StockTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTimelineProvider.swift; sourceTree = "<group>"; };
 		FDA8DB852B766C2B001FB3FE /* StockWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockWidgetView.swift; sourceTree = "<group>"; };
 		FDA8DB872B7671D4001FB3FE /* StockWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockWidget.swift; sourceTree = "<group>"; };
+		FDAD991F2B7B680E006CB983 /* PizzaOrderingAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaOrderingAttribute.swift; sourceTree = "<group>"; };
+		FDAD99212B7B7696006CB983 /* PizzaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaType.swift; sourceTree = "<group>"; };
 		FDB35A232B5BD4CE00CF24E2 /* QuoteWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteWidget.swift; sourceTree = "<group>"; };
 		FDB35A262B5BE12500CF24E2 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		FDB35A282B5C268800CF24E2 /* NetworkImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImageView.swift; sourceTree = "<group>"; };
@@ -329,6 +358,24 @@
 			path = PedometerWidget;
 			sourceTree = "<group>";
 		};
+		FD160ADE2B7A409C001CEF2C /* FocusTimerApp */ = {
+			isa = PBXGroup;
+			children = (
+				FD160AE02B7A5D96001CEF2C /* FocusTimerAttributes.swift */,
+				FD160AE72B7AA394001CEF2C /* FocuTimerAppView.swift */,
+			);
+			path = FocusTimerApp;
+			sourceTree = "<group>";
+		};
+		FD160ADF2B7A40C6001CEF2C /* FocusTimerLiveWidget */ = {
+			isa = PBXGroup;
+			children = (
+				FD160AE32B7A61D7001CEF2C /* FocusTimerEntryView.swift */,
+				FD160AE52B7A673E001CEF2C /* FocusTimerLiveWidget.swift */,
+			);
+			path = FocusTimerLiveWidget;
+			sourceTree = "<group>";
+		};
 		FD1FBC752B6A8EE200FD0FC4 /* ExchangeRateApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -379,6 +426,18 @@
 				FD5EFAD92B7171F30005694E /* TestServices.swift */,
 			);
 			path = Test;
+			sourceTree = "<group>";
+		};
+		FD8814072B78DC890012581C /* FamousPlaceMapKitWidget */ = {
+			isa = PBXGroup;
+			children = (
+				FD8814082B78DCC80012581C /* FamousPlace.swift */,
+				FD88140E2B78FB200012581C /* FamousPlaceTimelineProvider.swift */,
+				FD88140A2B78F8780012581C /* FamousPlaceTimelineEntry.swift */,
+				FD88140C2B78F8C60012581C /* FamousPlaceWidgetView.swift */,
+				FD8814102B7907980012581C /* FamousPlaceWidget.swift */,
+			);
+			path = FamousPlaceMapKitWidget;
 			sourceTree = "<group>";
 		};
 		FD948CA12B76417D003732E5 /* StockWidget */ = {
@@ -451,6 +510,9 @@
 				FD1FBC762B6A8EFC00FD0FC4 /* ExchangeRateWidget */,
 				FD948CA12B76417D003732E5 /* StockWidget */,
 				FD14CA3A2B77D327003AA9A7 /* PedometerWidget */,
+				FD8814072B78DC890012581C /* FamousPlaceMapKitWidget */,
+				FD160ADF2B7A40C6001CEF2C /* FocusTimerLiveWidget */,
+				FDAD991E2B7B65F5006CB983 /* PizzaDeliveryWidget */,
 				FD948CAD2B76475A003732E5 /* CustomStockIntentEX */,
 				FDA80AC32B57EE7F00372627 /* Frameworks */,
 				FDA80AAE2B57EE1200372627 /* Products */,
@@ -470,6 +532,7 @@
 		FDA80AAF2B57EE1200372627 /* WidgetKitsTest */ = {
 			isa = PBXGroup;
 			children = (
+				FD160AE92B7AAE78001CEF2C /* Info.plist */,
 				FDBC65AE2B62632800CD31B0 /* WidgetKitsTest.entitlements */,
 				FD5EFAD82B7171D20005694E /* Test */,
 				FDA7B7CE2B669DBE00CA6EAD /* Logger */,
@@ -479,6 +542,8 @@
 				FD1FBC752B6A8EE200FD0FC4 /* ExchangeRateApp */,
 				FD214CC82B6F92650098E5C9 /* StockApp */,
 				FD14CA392B77D309003AA9A7 /* Pedometer */,
+				FD160ADE2B7A409C001CEF2C /* FocusTimerApp */,
+				FDAD991D2B7B65D3006CB983 /* PizzaOrderingApp */,
 				FDA80AB02B57EE1200372627 /* WidgetKitsTestApp.swift */,
 				FDA80AB22B57EE1200372627 /* ContentView.swift */,
 				FDA80AB42B57EE1300372627 /* Assets.xcassets */,
@@ -537,6 +602,24 @@
 				FDA80AE92B584EF000372627 /* TodayInfoWidget.swift */,
 			);
 			path = TodayInfoWidget;
+			sourceTree = "<group>";
+		};
+		FDAD991D2B7B65D3006CB983 /* PizzaOrderingApp */ = {
+			isa = PBXGroup;
+			children = (
+				FDAD991F2B7B680E006CB983 /* PizzaOrderingAttribute.swift */,
+				FDAD99212B7B7696006CB983 /* PizzaType.swift */,
+				FD82FE092B7BF503004EB9B1 /* PizzaOrderAppView.swift */,
+			);
+			path = PizzaOrderingApp;
+			sourceTree = "<group>";
+		};
+		FDAD991E2B7B65F5006CB983 /* PizzaDeliveryWidget */ = {
+			isa = PBXGroup;
+			children = (
+				FD5E980D2B7CF8AE00CC2FE9 /* PizzaDeliveryWidget.swift */,
+			);
+			path = PizzaDeliveryWidget;
 			sourceTree = "<group>";
 		};
 		FDB35A252B5BE10400CF24E2 /* WeatherWidget */ = {
@@ -751,6 +834,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD82FE0A2B7BF503004EB9B1 /* PizzaOrderAppView.swift in Sources */,
 				FD1FBC782B6A8F2100FD0FC4 /* Country.swift in Sources */,
 				FD1FBC7A2B6A8F2D00FD0FC4 /* ExchangeRate.swift in Sources */,
 				FDBFA5F82B6EB83D0016A24B /* ExchangeRateAppView.swift in Sources */,
@@ -760,9 +844,12 @@
 				FDA80AB32B57EE1200372627 /* ContentView.swift in Sources */,
 				FDA80AB12B57EE1200372627 /* WidgetKitsTestApp.swift in Sources */,
 				FDD64E012B61476800EAE354 /* WorkoutView.swift in Sources */,
+				FD160AE12B7A5D96001CEF2C /* FocusTimerAttributes.swift in Sources */,
 				FDA17D662B63D7C6002E9C48 /* RemindersAppConstants.swift in Sources */,
 				FDA17D722B641FC3002E9C48 /* GroceryConstants.swift in Sources */,
+				FDAD99202B7B680E006CB983 /* PizzaOrderingAttribute.swift in Sources */,
 				FD20EA302B6D07F300F94D80 /* ExchangeRateServices.swift in Sources */,
+				FD160AE82B7AA394001CEF2C /* FocuTimerAppView.swift in Sources */,
 				FDA7B7CC2B6691ED00CA6EAD /* CoreDataManager.swift in Sources */,
 				FD14CA422B77DBFD003AA9A7 /* PedometerConstant.swift in Sources */,
 				FD0C105A2B65376E00B3679C /* GroceryView.swift in Sources */,
@@ -774,6 +861,7 @@
 				FD214CCA2B6F928C0098E5C9 /* StockModel.swift in Sources */,
 				FDA8DB822B766210001FB3FE /* StockIntent.intentdefinition in Sources */,
 				FD14CA3F2B77D403003AA9A7 /* PedometerManager.swift in Sources */,
+				FDAD99222B7B7696006CB983 /* PizzaType.swift in Sources */,
 				FDD64DFF2B61433C00EAE354 /* WorkoutModel.swift in Sources */,
 				FD0C105C2B65387E00B3679C /* Color+Extension.swift in Sources */,
 				FD5EFADA2B7171F30005694E /* TestServices.swift in Sources */,
@@ -814,6 +902,7 @@
 				FDBFA5F12B6EA6840016A24B /* ExchangeRateWidget.swift in Sources */,
 				FDC86ABE2B6803F700F5F2D3 /* ColorWidgetView.swift in Sources */,
 				FDB35A212B5BB44A00CF24E2 /* QuoteTimelineProvider.swift in Sources */,
+				FD88140B2B78F8780012581C /* FamousPlaceTimelineEntry.swift in Sources */,
 				FDBFA5ED2B6EA6600016A24B /* ExchangeRateWidgetEntry.swift in Sources */,
 				FDB35A1F2B5BB44200CF24E2 /* QuoteModel.swift in Sources */,
 				FD2E695E2B6042FC009867AF /* WeatherSubview.swift in Sources */,
@@ -821,10 +910,12 @@
 				FD948CA32B7641A0003732E5 /* StockTimelineEntry.swift in Sources */,
 				FDD64E022B61476800EAE354 /* WorkoutView.swift in Sources */,
 				FDA17D692B63D8F0002E9C48 /* RemindersWidgetTimeline.swift in Sources */,
+				FD5E980E2B7CF8AE00CC2FE9 /* PizzaDeliveryWidget.swift in Sources */,
 				FDBFA5F52B6EA6BD0016A24B /* ExchangeRate.swift in Sources */,
 				FDBFA5F42B6EA6B90016A24B /* Country.swift in Sources */,
 				FD214CCD2B6F94BC0098E5C9 /* StockServices.swift in Sources */,
 				FD14CA4B2B780317003AA9A7 /* PedometerEntry.swift in Sources */,
+				FD5E980F2B7CF90800CC2FE9 /* PizzaOrderingAttribute.swift in Sources */,
 				FDBC65B32B62646900CD31B0 /* RemindersWidgetView.swift in Sources */,
 				FDA17D682B63D8ED002E9C48 /* RemindersWidgetEntry.swift in Sources */,
 				FD03D4E02B5AB7DE00728B28 /* QuoteView.swift in Sources */,
@@ -832,23 +923,29 @@
 				FD9AFC072B618105005D133D /* WorkoutWidget.swift in Sources */,
 				FDA8DB882B7671D4001FB3FE /* StockWidget.swift in Sources */,
 				FDA7B7D62B66DA4800CA6EAD /* GroceryWidgetView.swift in Sources */,
+				FD160AE22B7A5D96001CEF2C /* FocusTimerAttributes.swift in Sources */,
+				FD8814092B78DCC80012581C /* FamousPlace.swift in Sources */,
 				FDA7B7CD2B66920200CA6EAD /* CoreDataManager.swift in Sources */,
 				FDA17D732B641FC3002E9C48 /* GroceryConstants.swift in Sources */,
+				FD160AE42B7A61D7001CEF2C /* FocusTimerEntryView.swift in Sources */,
 				FDA7B7D92B66DF8000CA6EAD /* GroceryWidget.swift in Sources */,
 				FD14CA4D2B780457003AA9A7 /* PedometerTimelineProvider.swift in Sources */,
 				FDB35A222B5BB44D00CF24E2 /* QuotesTimelineEntry.swift in Sources */,
 				FDA80ADB2B57F05B00372627 /* HelloStaticWidgetView.swift in Sources */,
 				FD14CA472B780011003AA9A7 /* PedometerWidget.swift in Sources */,
 				FDC86AC72B68175000F5F2D3 /* Expense.intentdefinition in Sources */,
+				FD160AE62B7A673E001CEF2C /* FocusTimerLiveWidget.swift in Sources */,
 				FDA7B7D42B66D9B200CA6EAD /* GroceryTimeline.swift in Sources */,
 				FDBFA5F62B6EA6CB0016A24B /* ExchangeRateServices.swift in Sources */,
 				FD2E69602B6046A8009867AF /* DailyWeatherView.swift in Sources */,
 				FDA80AD92B57EF4200372627 /* HelloStaticWidgetEntry.swift in Sources */,
 				FD2E695C2B60427B009867AF /* WeatherWidgetView.swift in Sources */,
 				FDA17D702B6413AA002E9C48 /* GroceyDataModel.xcdatamodeld in Sources */,
+				FD88140D2B78F8C60012581C /* FamousPlaceWidgetView.swift in Sources */,
 				FD2E695A2B6030FC009867AF /* WeatherWidgetProvider.swift in Sources */,
 				FD0C105D2B65387E00B3679C /* Color+Extension.swift in Sources */,
 				FDC86ACB2B6827B700F5F2D3 /* ExpenseWidgetEntry.swift in Sources */,
+				FD88140F2B78FB200012581C /* FamousPlaceTimelineProvider.swift in Sources */,
 				FDBFA5EF2B6EA6730016A24B /* ExchangeRateWidgetTimeline.swift in Sources */,
 				FDC86AC92B6817E700F5F2D3 /* ExpenseCategory.swift in Sources */,
 				FDA8DB862B766C2B001FB3FE /* StockWidgetView.swift in Sources */,
@@ -865,6 +962,7 @@
 				FDC86ACF2B68326600F5F2D3 /* ExpenseWidgetTimelineProvider.swift in Sources */,
 				FDA80AE82B584D7A00372627 /* TodayInfoView.swift in Sources */,
 				FDC86AC02B68041300F5F2D3 /* ColorWidgetEntry.swift in Sources */,
+				FD8814112B7907980012581C /* FamousPlaceWidget.swift in Sources */,
 				FDA17D672B63D8D4002E9C48 /* RemindersAppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1067,7 +1165,9 @@
 				DEVELOPMENT_TEAM = LJT266936C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetKitsTest/Info.plist;
 				INFOPLIST_KEY_NSMotionUsageDescription = "Please give access to use motion";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1099,7 +1199,9 @@
 				DEVELOPMENT_TEAM = LJT266936C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetKitsTest/Info.plist;
 				INFOPLIST_KEY_NSMotionUsageDescription = "Please give access to use motion";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -29,7 +29,6 @@ struct QuoteView: View {
 }
 
 struct QuoteView_Preview: PreviewProvider {
-    
     static var previews: some View {
         let placeholderQuote = QuotesTimelineEntry(date: Date(), quote: QuoteModel(quoteText: "See the positive side, the potential, and make an effort.", quoteAuthor: "Dalai Lama"))
         

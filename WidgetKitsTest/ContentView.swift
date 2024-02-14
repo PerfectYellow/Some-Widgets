@@ -17,7 +17,11 @@ struct ContentView: View {
         
 //        ExchangeRateAppView()
         
-        StockView(stock: StockObservation())
+//        StockView(stock: StockObservation())
+        
+//        FocuTimerAppView()
+        
+        PizzaOrderAppView()
     }
 }
 

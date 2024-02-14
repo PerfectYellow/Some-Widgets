@@ -19,8 +19,18 @@ struct SimpleStaticWidgetBundle: WidgetBundle {
         ExpenseWidget()
         
         ExchangeRateWidget()
+        
+        PedometerWidget()
+        
+        FamousPlaceWidget()
             
         StockWidget()
+        
+        if #available(iOS 16.1, *) {
+            FocusTimerLiveWidget()
+            
+            PizzaDeliveryWidget()
+        }
     }
 }
 

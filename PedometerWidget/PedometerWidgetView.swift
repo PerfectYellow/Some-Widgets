@@ -16,8 +16,10 @@ struct PedometerWidgetView: View {
             case .accessoryCircular:
                 ZStack {
                     Circle().stroke(lineWidth: 4)
-                    Image(systemName: "figure.walk")
-                    Text("\(entry.steps)")
+                    VStack {
+                        Image(systemName: "figure.walk")
+                        Text("\(entry.steps)")
+                    }
                 }
                 
             default:
